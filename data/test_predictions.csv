@@ -1,0 +1,420 @@
+patient_id,nodule_id,image_path,malignancy,binary_label,prediction_probability,predicted_label
+LIDC-IDRI-0276,1,data/nodule_crops/LIDC-IDRI-0276/nodule_1_roi_150.png,4,1,0.50930995,1
+LIDC-IDRI-0276,1,data/nodule_crops/LIDC-IDRI-0276/nodule_1_roi_151.png,4,1,0.5128669,1
+LIDC-IDRI-0276,1,data/nodule_crops/LIDC-IDRI-0276/nodule_1_roi_152.png,4,1,0.51313424,1
+LIDC-IDRI-0276,168669,data/nodule_crops/LIDC-IDRI-0276/nodule_168669_roi_154.png,3,0,0.51505303,1
+LIDC-IDRI-0276,168669,data/nodule_crops/LIDC-IDRI-0276/nodule_168669_roi_155.png,3,0,0.51097804,1
+LIDC-IDRI-0276,168669,data/nodule_crops/LIDC-IDRI-0276/nodule_168669_roi_156.png,3,0,0.5117904,1
+LIDC-IDRI-0276,168669,data/nodule_crops/LIDC-IDRI-0276/nodule_168669_roi_157.png,3,0,0.51377195,1
+LIDC-IDRI-0276,168669,data/nodule_crops/LIDC-IDRI-0276/nodule_168669_roi_158.png,3,0,0.50901955,1
+LIDC-IDRI-0276,168085,data/nodule_crops/LIDC-IDRI-0276/nodule_168085_roi_159.png,3,0,0.5129926,1
+LIDC-IDRI-0276,168085,data/nodule_crops/LIDC-IDRI-0276/nodule_168085_roi_160.png,3,0,0.5122742,1
+LIDC-IDRI-0276,168084,data/nodule_crops/LIDC-IDRI-0276/nodule_168084_roi_161.png,4,1,0.51119626,1
+LIDC-IDRI-0276,168084,data/nodule_crops/LIDC-IDRI-0276/nodule_168084_roi_162.png,4,1,0.5117904,1
+LIDC-IDRI-0276,168084,data/nodule_crops/LIDC-IDRI-0276/nodule_168084_roi_163.png,4,1,0.51377195,1
+LIDC-IDRI-0276,Nodule 001,data/nodule_crops/LIDC-IDRI-0276/nodule_Nodule 001_roi_164.png,4,1,0.51115125,1
+LIDC-IDRI-0276,Nodule 001,data/nodule_crops/LIDC-IDRI-0276/nodule_Nodule 001_roi_165.png,4,1,0.5117904,1
+LIDC-IDRI-0276,Nodule 001,data/nodule_crops/LIDC-IDRI-0276/nodule_Nodule 001_roi_166.png,4,1,0.51221055,1
+LIDC-IDRI-0399,Nodule 002,data/nodule_crops/LIDC-IDRI-0399/nodule_Nodule 002_roi_1390.png,2,0,0.5299482,1
+LIDC-IDRI-0399,Nodule 002,data/nodule_crops/LIDC-IDRI-0399/nodule_Nodule 002_roi_1391.png,2,0,0.53385097,1
+LIDC-IDRI-0399,Nodule 002,data/nodule_crops/LIDC-IDRI-0399/nodule_Nodule 002_roi_1392.png,2,0,0.53300476,1
+LIDC-IDRI-0399,Nodule 002,data/nodule_crops/LIDC-IDRI-0399/nodule_Nodule 002_roi_1393.png,2,0,0.53350055,1
+LIDC-IDRI-0399,Nodule 002,data/nodule_crops/LIDC-IDRI-0399/nodule_Nodule 002_roi_1394.png,2,0,0.53347874,1
+LIDC-IDRI-0399,172679,data/nodule_crops/LIDC-IDRI-0399/nodule_172679_roi_1396.png,2,0,0.5299482,1
+LIDC-IDRI-0399,172679,data/nodule_crops/LIDC-IDRI-0399/nodule_172679_roi_1397.png,2,0,0.5320828,1
+LIDC-IDRI-0399,172679,data/nodule_crops/LIDC-IDRI-0399/nodule_172679_roi_1398.png,2,0,0.53134525,1
+LIDC-IDRI-0399,172679,data/nodule_crops/LIDC-IDRI-0399/nodule_172679_roi_1399.png,2,0,0.53350055,1
+LIDC-IDRI-0399,172679,data/nodule_crops/LIDC-IDRI-0399/nodule_172679_roi_1400.png,2,0,0.53421956,1
+LIDC-IDRI-0399,172681,data/nodule_crops/LIDC-IDRI-0399/nodule_172681_roi_1401.png,2,0,0.55646485,1
+LIDC-IDRI-0399,174508,data/nodule_crops/LIDC-IDRI-0399/nodule_174508_roi_1403.png,2,0,0.5320828,1
+LIDC-IDRI-0399,174508,data/nodule_crops/LIDC-IDRI-0399/nodule_174508_roi_1404.png,2,0,0.53134525,1
+LIDC-IDRI-0399,174508,data/nodule_crops/LIDC-IDRI-0399/nodule_174508_roi_1405.png,2,0,0.53226936,1
+LIDC-IDRI-0399,174508,data/nodule_crops/LIDC-IDRI-0399/nodule_174508_roi_1406.png,2,0,0.53341913,1
+LIDC-IDRI-0568,0,data/nodule_crops/LIDC-IDRI-0568/nodule_0_roi_1605.png,1,0,0.4817728,0
+LIDC-IDRI-0568,0,data/nodule_crops/LIDC-IDRI-0568/nodule_0_roi_1606.png,1,0,0.484198,0
+LIDC-IDRI-0568,0,data/nodule_crops/LIDC-IDRI-0568/nodule_0_roi_1607.png,1,0,0.48564658,0
+LIDC-IDRI-0568,0,data/nodule_crops/LIDC-IDRI-0568/nodule_0_roi_1608.png,1,0,0.48473483,0
+LIDC-IDRI-0568,0,data/nodule_crops/LIDC-IDRI-0568/nodule_0_roi_1609.png,1,0,0.4867966,0
+LIDC-IDRI-0568,0,data/nodule_crops/LIDC-IDRI-0568/nodule_0_roi_1610.png,1,0,0.48124617,0
+LIDC-IDRI-0568,2,data/nodule_crops/LIDC-IDRI-0568/nodule_2_roi_1611.png,1,0,0.4765894,0
+LIDC-IDRI-0568,2,data/nodule_crops/LIDC-IDRI-0568/nodule_2_roi_1612.png,1,0,0.4760708,0
+LIDC-IDRI-0568,2,data/nodule_crops/LIDC-IDRI-0568/nodule_2_roi_1613.png,1,0,0.47232908,0
+LIDC-IDRI-0568,2,data/nodule_crops/LIDC-IDRI-0568/nodule_2_roi_1614.png,1,0,0.46661973,0
+LIDC-IDRI-0568,3,data/nodule_crops/LIDC-IDRI-0568/nodule_3_roi_1615.png,3,0,0.5043255,1
+LIDC-IDRI-0568,3,data/nodule_crops/LIDC-IDRI-0568/nodule_3_roi_1616.png,3,0,0.4982964,0
+LIDC-IDRI-0568,3,data/nodule_crops/LIDC-IDRI-0568/nodule_3_roi_1617.png,3,0,0.49489447,0
+LIDC-IDRI-0568,3,data/nodule_crops/LIDC-IDRI-0568/nodule_3_roi_1618.png,3,0,0.49047425,0
+LIDC-IDRI-0568,4,data/nodule_crops/LIDC-IDRI-0568/nodule_4_roi_1619.png,3,0,0.4923933,0
+LIDC-IDRI-0568,4,data/nodule_crops/LIDC-IDRI-0568/nodule_4_roi_1620.png,3,0,0.49300095,0
+LIDC-IDRI-0568,4,data/nodule_crops/LIDC-IDRI-0568/nodule_4_roi_1621.png,3,0,0.49240446,0
+LIDC-IDRI-0568,77879,data/nodule_crops/LIDC-IDRI-0568/nodule_77879_roi_1622.png,1,0,0.4771228,0
+LIDC-IDRI-0568,77879,data/nodule_crops/LIDC-IDRI-0568/nodule_77879_roi_1623.png,1,0,0.4760708,0
+LIDC-IDRI-0568,77879,data/nodule_crops/LIDC-IDRI-0568/nodule_77879_roi_1624.png,1,0,0.47195473,0
+LIDC-IDRI-0568,77879,data/nodule_crops/LIDC-IDRI-0568/nodule_77879_roi_1625.png,1,0,0.46620414,0
+LIDC-IDRI-0568,77876,data/nodule_crops/LIDC-IDRI-0568/nodule_77876_roi_1626.png,1,0,0.4799751,0
+LIDC-IDRI-0568,77876,data/nodule_crops/LIDC-IDRI-0568/nodule_77876_roi_1627.png,1,0,0.48264593,0
+LIDC-IDRI-0568,77876,data/nodule_crops/LIDC-IDRI-0568/nodule_77876_roi_1628.png,1,0,0.48390535,0
+LIDC-IDRI-0568,77876,data/nodule_crops/LIDC-IDRI-0568/nodule_77876_roi_1629.png,1,0,0.48473483,0
+LIDC-IDRI-0568,77876,data/nodule_crops/LIDC-IDRI-0568/nodule_77876_roi_1630.png,1,0,0.4867966,0
+LIDC-IDRI-0568,77881,data/nodule_crops/LIDC-IDRI-0568/nodule_77881_roi_1631.png,3,0,0.50950104,1
+LIDC-IDRI-0568,77881,data/nodule_crops/LIDC-IDRI-0568/nodule_77881_roi_1632.png,3,0,0.50362766,1
+LIDC-IDRI-0568,77881,data/nodule_crops/LIDC-IDRI-0568/nodule_77881_roi_1633.png,3,0,0.49978465,0
+LIDC-IDRI-0568,77881,data/nodule_crops/LIDC-IDRI-0568/nodule_77881_roi_1634.png,3,0,0.4944015,0
+LIDC-IDRI-0568,77881,data/nodule_crops/LIDC-IDRI-0568/nodule_77881_roi_1635.png,3,0,0.49076045,0
+LIDC-IDRI-0568,75190,data/nodule_crops/LIDC-IDRI-0568/nodule_75190_roi_1636.png,2,0,0.5042981,1
+LIDC-IDRI-0568,75190,data/nodule_crops/LIDC-IDRI-0568/nodule_75190_roi_1637.png,2,0,0.49978477,0
+LIDC-IDRI-0568,75190,data/nodule_crops/LIDC-IDRI-0568/nodule_75190_roi_1638.png,2,0,0.49489447,0
+LIDC-IDRI-0568,75190,data/nodule_crops/LIDC-IDRI-0568/nodule_75190_roi_1639.png,2,0,0.49076045,0
+LIDC-IDRI-0568,75187,data/nodule_crops/LIDC-IDRI-0568/nodule_75187_roi_1640.png,1,0,0.4771228,0
+LIDC-IDRI-0568,75187,data/nodule_crops/LIDC-IDRI-0568/nodule_75187_roi_1641.png,1,0,0.4760708,0
+LIDC-IDRI-0568,75187,data/nodule_crops/LIDC-IDRI-0568/nodule_75187_roi_1642.png,1,0,0.47232908,0
+LIDC-IDRI-0568,75187,data/nodule_crops/LIDC-IDRI-0568/nodule_75187_roi_1643.png,1,0,0.46621507,0
+LIDC-IDRI-0568,75184,data/nodule_crops/LIDC-IDRI-0568/nodule_75184_roi_1644.png,1,0,0.4799751,0
+LIDC-IDRI-0568,75184,data/nodule_crops/LIDC-IDRI-0568/nodule_75184_roi_1645.png,1,0,0.48264593,0
+LIDC-IDRI-0568,75184,data/nodule_crops/LIDC-IDRI-0568/nodule_75184_roi_1646.png,1,0,0.48390535,0
+LIDC-IDRI-0568,75184,data/nodule_crops/LIDC-IDRI-0568/nodule_75184_roi_1647.png,1,0,0.48473483,0
+LIDC-IDRI-0568,Nodule 003,data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 003_roi_1648.png,1,0,0.4867966,0
+LIDC-IDRI-0568,Nodule 003,data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 003_roi_1649.png,1,0,0.48830166,0
+LIDC-IDRI-0568,Nodule 003,data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 003_roi_1650.png,1,0,0.48564658,0
+LIDC-IDRI-0568,Nodule 003,data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 003_roi_1651.png,1,0,0.484198,0
+LIDC-IDRI-0568,Nodule 003,data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 003_roi_1652.png,1,0,0.4799751,0
+LIDC-IDRI-0568,Nodule 002,data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 002_roi_1653.png,1,0,0.46620414,0
+LIDC-IDRI-0568,Nodule 002,data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 002_roi_1654.png,1,0,0.47232908,0
+LIDC-IDRI-0568,Nodule 002,data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 002_roi_1655.png,1,0,0.47702953,0
+LIDC-IDRI-0568,Nodule 002,data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 002_roi_1656.png,1,0,0.4765894,0
+LIDC-IDRI-0568,Nodule 001,data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 001_roi_1657.png,3,0,0.49210837,0
+LIDC-IDRI-0568,Nodule 001,data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 001_roi_1658.png,3,0,0.49463773,0
+LIDC-IDRI-0568,Nodule 001,data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 001_roi_1659.png,3,0,0.49978465,0
+LIDC-IDRI-0568,Nodule 001,data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 001_roi_1660.png,3,0,0.50476444,1
+LIDC-IDRI-0211,1,data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3333.png,3,0,0.5367429,1
+LIDC-IDRI-0211,1,data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3334.png,3,0,0.53908944,1
+LIDC-IDRI-0211,1,data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3335.png,3,0,0.5340866,1
+LIDC-IDRI-0211,1,data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3336.png,3,0,0.53081584,1
+LIDC-IDRI-0211,1,data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3337.png,3,0,0.532845,1
+LIDC-IDRI-0211,1,data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3338.png,3,0,0.53424823,1
+LIDC-IDRI-0211,1,data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3339.png,3,0,0.5348907,1
+LIDC-IDRI-0211,1,data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3340.png,3,0,0.534407,1
+LIDC-IDRI-0211,1,data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3341.png,3,0,0.5331203,1
+LIDC-IDRI-0211,1,data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3342.png,3,0,0.54008174,1
+LIDC-IDRI-0211,1,data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3343.png,3,0,0.54238105,1
+LIDC-IDRI-0211,1,data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3344.png,3,0,0.5413338,1
+LIDC-IDRI-0211,1,data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3345.png,3,0,0.5391735,1
+LIDC-IDRI-0211,1,data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3346.png,3,0,0.5351064,1
+LIDC-IDRI-0211,1,data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3347.png,3,0,0.5372528,1
+LIDC-IDRI-0211,1,data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3348.png,3,0,0.5345612,1
+LIDC-IDRI-0211,171504,data/nodule_crops/LIDC-IDRI-0211/nodule_171504_roi_3349.png,2,0,0.5132388,1
+LIDC-IDRI-0211,171504,data/nodule_crops/LIDC-IDRI-0211/nodule_171504_roi_3350.png,2,0,0.5132481,1
+LIDC-IDRI-0211,171504,data/nodule_crops/LIDC-IDRI-0211/nodule_171504_roi_3351.png,2,0,0.51242286,1
+LIDC-IDRI-0211,171504,data/nodule_crops/LIDC-IDRI-0211/nodule_171504_roi_3352.png,2,0,0.50972825,1
+LIDC-IDRI-0211,171500,data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3353.png,5,1,0.5364094,1
+LIDC-IDRI-0211,171500,data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3354.png,5,1,0.5364731,1
+LIDC-IDRI-0211,171500,data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3355.png,5,1,0.5375866,1
+LIDC-IDRI-0211,171500,data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3356.png,5,1,0.53561556,1
+LIDC-IDRI-0211,171500,data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3357.png,5,1,0.53638226,1
+LIDC-IDRI-0211,171500,data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3358.png,5,1,0.537588,1
+LIDC-IDRI-0211,171500,data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3359.png,5,1,0.5379146,1
+LIDC-IDRI-0211,171500,data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3360.png,5,1,0.5341013,1
+LIDC-IDRI-0211,171500,data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3361.png,5,1,0.5320684,1
+LIDC-IDRI-0211,171500,data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3362.png,5,1,0.532845,1
+LIDC-IDRI-0211,171500,data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3363.png,5,1,0.53590107,1
+LIDC-IDRI-0211,171500,data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3364.png,5,1,0.53426784,1
+LIDC-IDRI-0211,171500,data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3365.png,5,1,0.5348412,1
+LIDC-IDRI-0211,171500,data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3366.png,5,1,0.53400344,1
+LIDC-IDRI-0211,171500,data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3367.png,5,1,0.5374617,1
+LIDC-IDRI-0211,171500,data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3368.png,5,1,0.54006946,1
+LIDC-IDRI-0211,171500,data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3369.png,5,1,0.539814,1
+LIDC-IDRI-0211,171500,data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3370.png,5,1,0.53850114,1
+LIDC-IDRI-0211,171500,data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3371.png,5,1,0.53689444,1
+LIDC-IDRI-0211,171500,data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3372.png,5,1,0.5355848,1
+LIDC-IDRI-0211,171500,data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3373.png,5,1,0.53342056,1
+LIDC-IDRI-0211,168147,data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3374.png,5,1,0.5370786,1
+LIDC-IDRI-0211,168147,data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3375.png,5,1,0.5355545,1
+LIDC-IDRI-0211,168147,data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3376.png,5,1,0.5381409,1
+LIDC-IDRI-0211,168147,data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3377.png,5,1,0.5396902,1
+LIDC-IDRI-0211,168147,data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3378.png,5,1,0.5407521,1
+LIDC-IDRI-0211,168147,data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3379.png,5,1,0.53874296,1
+LIDC-IDRI-0211,168147,data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3380.png,5,1,0.53604007,1
+LIDC-IDRI-0211,168147,data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3381.png,5,1,0.53590107,1
+LIDC-IDRI-0211,168147,data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3382.png,5,1,0.5357388,1
+LIDC-IDRI-0211,168147,data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3383.png,5,1,0.5348412,1
+LIDC-IDRI-0211,168147,data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3384.png,5,1,0.533701,1
+LIDC-IDRI-0211,168147,data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3385.png,5,1,0.5381303,1
+LIDC-IDRI-0211,168147,data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3386.png,5,1,0.54006946,1
+LIDC-IDRI-0211,168147,data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3387.png,5,1,0.5390252,1
+LIDC-IDRI-0211,168147,data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3388.png,5,1,0.53850114,1
+LIDC-IDRI-0211,168147,data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3389.png,5,1,0.53689444,1
+LIDC-IDRI-0211,168147,data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3390.png,5,1,0.53464085,1
+LIDC-IDRI-0211,Nodule 001,data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3391.png,5,1,0.5354957,1
+LIDC-IDRI-0211,Nodule 001,data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3392.png,5,1,0.5367569,1
+LIDC-IDRI-0211,Nodule 001,data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3393.png,5,1,0.53841496,1
+LIDC-IDRI-0211,Nodule 001,data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3394.png,5,1,0.53597665,1
+LIDC-IDRI-0211,Nodule 001,data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3395.png,5,1,0.5377835,1
+LIDC-IDRI-0211,Nodule 001,data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3396.png,5,1,0.54077864,1
+LIDC-IDRI-0211,Nodule 001,data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3397.png,5,1,0.5340866,1
+LIDC-IDRI-0211,Nodule 001,data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3398.png,5,1,0.5351354,1
+LIDC-IDRI-0211,Nodule 001,data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3399.png,5,1,0.5321906,1
+LIDC-IDRI-0211,Nodule 001,data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3400.png,5,1,0.53563017,1
+LIDC-IDRI-0211,Nodule 001,data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3401.png,5,1,0.534882,1
+LIDC-IDRI-0211,Nodule 001,data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3402.png,5,1,0.5337668,1
+LIDC-IDRI-0211,Nodule 001,data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3403.png,5,1,0.53400344,1
+LIDC-IDRI-0211,Nodule 001,data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3404.png,5,1,0.54081327,1
+LIDC-IDRI-0211,Nodule 001,data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3405.png,5,1,0.5414111,1
+LIDC-IDRI-0211,Nodule 001,data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3406.png,5,1,0.53824574,1
+LIDC-IDRI-0211,Nodule 001,data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3407.png,5,1,0.5376143,1
+LIDC-IDRI-0211,Nodule 001,data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3408.png,5,1,0.5359983,1
+LIDC-IDRI-0211,Nodule 001,data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3409.png,5,1,0.5354333,1
+LIDC-IDRI-0171,3,data/nodule_crops/LIDC-IDRI-0171/nodule_3_roi_3833.png,2,0,0.5055514,1
+LIDC-IDRI-0171,3,data/nodule_crops/LIDC-IDRI-0171/nodule_3_roi_3834.png,2,0,0.5035577,1
+LIDC-IDRI-0171,3,data/nodule_crops/LIDC-IDRI-0171/nodule_3_roi_3835.png,2,0,0.49715894,0
+LIDC-IDRI-0171,3,data/nodule_crops/LIDC-IDRI-0171/nodule_3_roi_3836.png,2,0,0.48729706,0
+LIDC-IDRI-0171,4,data/nodule_crops/LIDC-IDRI-0171/nodule_4_roi_3837.png,2,0,0.50717926,1
+LIDC-IDRI-0171,4,data/nodule_crops/LIDC-IDRI-0171/nodule_4_roi_3838.png,2,0,0.51173764,1
+LIDC-IDRI-0171,4,data/nodule_crops/LIDC-IDRI-0171/nodule_4_roi_3839.png,2,0,0.5121439,1
+LIDC-IDRI-0171,5,data/nodule_crops/LIDC-IDRI-0171/nodule_5_roi_3840.png,2,0,0.5151363,1
+LIDC-IDRI-0171,5,data/nodule_crops/LIDC-IDRI-0171/nodule_5_roi_3841.png,2,0,0.51492167,1
+LIDC-IDRI-0171,5,data/nodule_crops/LIDC-IDRI-0171/nodule_5_roi_3842.png,2,0,0.51440895,1
+LIDC-IDRI-0171,6,data/nodule_crops/LIDC-IDRI-0171/nodule_6_roi_3843.png,2,0,0.51219046,1
+LIDC-IDRI-0171,6,data/nodule_crops/LIDC-IDRI-0171/nodule_6_roi_3844.png,2,0,0.5181131,1
+LIDC-IDRI-0171,6,data/nodule_crops/LIDC-IDRI-0171/nodule_6_roi_3845.png,2,0,0.5163186,1
+LIDC-IDRI-0171,6,data/nodule_crops/LIDC-IDRI-0171/nodule_6_roi_3846.png,2,0,0.51501054,1
+LIDC-IDRI-0171,6,data/nodule_crops/LIDC-IDRI-0171/nodule_6_roi_3847.png,2,0,0.51516014,1
+LIDC-IDRI-0171,6,data/nodule_crops/LIDC-IDRI-0171/nodule_6_roi_3848.png,2,0,0.51305485,1
+LIDC-IDRI-0171,6,data/nodule_crops/LIDC-IDRI-0171/nodule_6_roi_3849.png,2,0,0.51401466,1
+LIDC-IDRI-0171,6,data/nodule_crops/LIDC-IDRI-0171/nodule_6_roi_3850.png,2,0,0.5179313,1
+LIDC-IDRI-0171,6,data/nodule_crops/LIDC-IDRI-0171/nodule_6_roi_3851.png,2,0,0.523821,1
+LIDC-IDRI-0171,115456,data/nodule_crops/LIDC-IDRI-0171/nodule_115456_roi_3853.png,3,0,0.50321484,1
+LIDC-IDRI-0171,115456,data/nodule_crops/LIDC-IDRI-0171/nodule_115456_roi_3854.png,3,0,0.49957988,0
+LIDC-IDRI-0171,115461,data/nodule_crops/LIDC-IDRI-0171/nodule_115461_roi_3855.png,3,0,0.512457,1
+LIDC-IDRI-0171,115461,data/nodule_crops/LIDC-IDRI-0171/nodule_115461_roi_3856.png,3,0,0.5105001,1
+LIDC-IDRI-0171,115458,data/nodule_crops/LIDC-IDRI-0171/nodule_115458_roi_3857.png,3,0,0.51688147,1
+LIDC-IDRI-0171,115458,data/nodule_crops/LIDC-IDRI-0171/nodule_115458_roi_3858.png,3,0,0.5144989,1
+LIDC-IDRI-0171,115458,data/nodule_crops/LIDC-IDRI-0171/nodule_115458_roi_3859.png,3,0,0.5148934,1
+LIDC-IDRI-0171,115451,data/nodule_crops/LIDC-IDRI-0171/nodule_115451_roi_3860.png,4,1,0.5170886,1
+LIDC-IDRI-0171,115451,data/nodule_crops/LIDC-IDRI-0171/nodule_115451_roi_3861.png,4,1,0.5164768,1
+LIDC-IDRI-0171,115451,data/nodule_crops/LIDC-IDRI-0171/nodule_115451_roi_3862.png,4,1,0.51501054,1
+LIDC-IDRI-0171,115451,data/nodule_crops/LIDC-IDRI-0171/nodule_115451_roi_3863.png,4,1,0.5146002,1
+LIDC-IDRI-0171,115451,data/nodule_crops/LIDC-IDRI-0171/nodule_115451_roi_3864.png,4,1,0.5131781,1
+LIDC-IDRI-0171,115451,data/nodule_crops/LIDC-IDRI-0171/nodule_115451_roi_3865.png,4,1,0.5124671,1
+LIDC-IDRI-0171,135202,data/nodule_crops/LIDC-IDRI-0171/nodule_135202_roi_3867.png,2,0,0.5307645,1
+LIDC-IDRI-0171,135205,data/nodule_crops/LIDC-IDRI-0171/nodule_135205_roi_3868.png,2,0,0.5128408,1
+LIDC-IDRI-0171,135189,data/nodule_crops/LIDC-IDRI-0171/nodule_135189_roi_3870.png,4,1,0.5143083,1
+LIDC-IDRI-0171,135189,data/nodule_crops/LIDC-IDRI-0171/nodule_135189_roi_3871.png,4,1,0.5134344,1
+LIDC-IDRI-0171,135189,data/nodule_crops/LIDC-IDRI-0171/nodule_135189_roi_3872.png,4,1,0.51526964,1
+LIDC-IDRI-0171,135189,data/nodule_crops/LIDC-IDRI-0171/nodule_135189_roi_3873.png,4,1,0.5146002,1
+LIDC-IDRI-0171,135189,data/nodule_crops/LIDC-IDRI-0171/nodule_135189_roi_3874.png,4,1,0.5131781,1
+LIDC-IDRI-0171,135189,data/nodule_crops/LIDC-IDRI-0171/nodule_135189_roi_3875.png,4,1,0.5124123,1
+LIDC-IDRI-0171,135194,data/nodule_crops/LIDC-IDRI-0171/nodule_135194_roi_3876.png,2,0,0.5166914,1
+LIDC-IDRI-0171,135194,data/nodule_crops/LIDC-IDRI-0171/nodule_135194_roi_3877.png,2,0,0.5144989,1
+LIDC-IDRI-0171,135194,data/nodule_crops/LIDC-IDRI-0171/nodule_135194_roi_3878.png,2,0,0.51440895,1
+LIDC-IDRI-0171,135199,data/nodule_crops/LIDC-IDRI-0171/nodule_135199_roi_3879.png,2,0,0.511615,1
+LIDC-IDRI-0171,135199,data/nodule_crops/LIDC-IDRI-0171/nodule_135199_roi_3880.png,2,0,0.5112275,1
+LIDC-IDRI-0171,135192,data/nodule_crops/LIDC-IDRI-0171/nodule_135192_roi_3881.png,3,0,0.5035577,1
+LIDC-IDRI-0171,135192,data/nodule_crops/LIDC-IDRI-0171/nodule_135192_roi_3882.png,3,0,0.49957988,0
+LIDC-IDRI-0171,Nodule 006,data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 006_roi_3885.png,4,1,0.5139128,1
+LIDC-IDRI-0171,Nodule 006,data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 006_roi_3886.png,4,1,0.51167566,1
+LIDC-IDRI-0171,Nodule 006,data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 006_roi_3887.png,4,1,0.51300067,1
+LIDC-IDRI-0171,Nodule 006,data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 006_roi_3888.png,4,1,0.51526964,1
+LIDC-IDRI-0171,Nodule 006,data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 006_roi_3889.png,4,1,0.5164767,1
+LIDC-IDRI-0171,Nodule 006,data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 006_roi_3890.png,4,1,0.51691633,1
+LIDC-IDRI-0171,Nodule 005,data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 005_roi_3891.png,3,0,0.51492167,1
+LIDC-IDRI-0171,Nodule 005,data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 005_roi_3892.png,3,0,0.5166914,1
+LIDC-IDRI-0171,Nodule 007,data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 007_roi_3893.png,2,0,0.5121439,1
+LIDC-IDRI-0171,Nodule 007,data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 007_roi_3894.png,2,0,0.512457,1
+LIDC-IDRI-0171,Nodule 004,data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 004_roi_3895.png,2,0,0.49959838,0
+LIDC-IDRI-0171,Nodule 004,data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 004_roi_3896.png,2,0,0.5043331,1
+LIDC-IDRI-0171,Nodule 004,data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 004_roi_3897.png,2,0,0.50555164,1
+LIDC-IDRI-0191,Nodule 001,data/nodule_crops/LIDC-IDRI-0191/nodule_Nodule 001_roi_3916.png,5,1,0.5056507,1
+LIDC-IDRI-0191,Nodule 001,data/nodule_crops/LIDC-IDRI-0191/nodule_Nodule 001_roi_3917.png,5,1,0.50485444,1
+LIDC-IDRI-0191,Nodule 001,data/nodule_crops/LIDC-IDRI-0191/nodule_Nodule 001_roi_3918.png,5,1,0.50254005,1
+LIDC-IDRI-0191,Nodule 001,data/nodule_crops/LIDC-IDRI-0191/nodule_Nodule 001_roi_3919.png,5,1,0.4984232,0
+LIDC-IDRI-0191,Nodule 001,data/nodule_crops/LIDC-IDRI-0191/nodule_Nodule 001_roi_3920.png,5,1,0.494479,0
+LIDC-IDRI-0191,Nodule 001,data/nodule_crops/LIDC-IDRI-0191/nodule_Nodule 001_roi_3921.png,5,1,0.49876812,0
+LIDC-IDRI-0191,Nodule 001,data/nodule_crops/LIDC-IDRI-0191/nodule_Nodule 001_roi_3922.png,5,1,0.49614623,0
+LIDC-IDRI-0191,163111,data/nodule_crops/LIDC-IDRI-0191/nodule_163111_roi_3923.png,5,1,0.49003538,0
+LIDC-IDRI-0191,163111,data/nodule_crops/LIDC-IDRI-0191/nodule_163111_roi_3924.png,5,1,0.4921351,0
+LIDC-IDRI-0191,163111,data/nodule_crops/LIDC-IDRI-0191/nodule_163111_roi_3925.png,5,1,0.49663758,0
+LIDC-IDRI-0191,163111,data/nodule_crops/LIDC-IDRI-0191/nodule_163111_roi_3926.png,5,1,0.50011426,1
+LIDC-IDRI-0191,163111,data/nodule_crops/LIDC-IDRI-0191/nodule_163111_roi_3927.png,5,1,0.49099937,0
+LIDC-IDRI-0191,163111,data/nodule_crops/LIDC-IDRI-0191/nodule_163111_roi_3928.png,5,1,0.4984621,0
+LIDC-IDRI-0191,163111,data/nodule_crops/LIDC-IDRI-0191/nodule_163111_roi_3929.png,5,1,0.50305516,1
+LIDC-IDRI-0191,163111,data/nodule_crops/LIDC-IDRI-0191/nodule_163111_roi_3930.png,5,1,0.50485444,1
+LIDC-IDRI-0191,163111,data/nodule_crops/LIDC-IDRI-0191/nodule_163111_roi_3931.png,5,1,0.5009635,1
+LIDC-IDRI-0191,163111,data/nodule_crops/LIDC-IDRI-0191/nodule_163111_roi_3932.png,5,1,0.5046023,1
+LIDC-IDRI-0191,163111,data/nodule_crops/LIDC-IDRI-0191/nodule_163111_roi_3933.png,5,1,0.483842,0
+LIDC-IDRI-0191,160640,data/nodule_crops/LIDC-IDRI-0191/nodule_160640_roi_3934.png,5,1,0.4880774,0
+LIDC-IDRI-0191,160640,data/nodule_crops/LIDC-IDRI-0191/nodule_160640_roi_3935.png,5,1,0.4921351,0
+LIDC-IDRI-0191,160640,data/nodule_crops/LIDC-IDRI-0191/nodule_160640_roi_3936.png,5,1,0.4975147,0
+LIDC-IDRI-0191,160640,data/nodule_crops/LIDC-IDRI-0191/nodule_160640_roi_3937.png,5,1,0.49620605,0
+LIDC-IDRI-0191,160640,data/nodule_crops/LIDC-IDRI-0191/nodule_160640_roi_3938.png,5,1,0.49564284,0
+LIDC-IDRI-0191,160640,data/nodule_crops/LIDC-IDRI-0191/nodule_160640_roi_3939.png,5,1,0.492887,0
+LIDC-IDRI-0191,160640,data/nodule_crops/LIDC-IDRI-0191/nodule_160640_roi_3940.png,5,1,0.50254005,1
+LIDC-IDRI-0191,160640,data/nodule_crops/LIDC-IDRI-0191/nodule_160640_roi_3941.png,5,1,0.50216454,1
+LIDC-IDRI-0191,160640,data/nodule_crops/LIDC-IDRI-0191/nodule_160640_roi_3942.png,5,1,0.4919704,0
+LIDC-IDRI-0191,160640,data/nodule_crops/LIDC-IDRI-0191/nodule_160640_roi_3943.png,5,1,0.498916,0
+LIDC-IDRI-0191,0,data/nodule_crops/LIDC-IDRI-0191/nodule_0_roi_3944.png,4,1,0.49128765,0
+LIDC-IDRI-0191,0,data/nodule_crops/LIDC-IDRI-0191/nodule_0_roi_3945.png,4,1,0.4932704,0
+LIDC-IDRI-0191,0,data/nodule_crops/LIDC-IDRI-0191/nodule_0_roi_3946.png,4,1,0.49928436,0
+LIDC-IDRI-0191,0,data/nodule_crops/LIDC-IDRI-0191/nodule_0_roi_3947.png,4,1,0.49099937,0
+LIDC-IDRI-0191,0,data/nodule_crops/LIDC-IDRI-0191/nodule_0_roi_3948.png,4,1,0.4920353,0
+LIDC-IDRI-0191,0,data/nodule_crops/LIDC-IDRI-0191/nodule_0_roi_3949.png,4,1,0.5028986,1
+LIDC-IDRI-0191,0,data/nodule_crops/LIDC-IDRI-0191/nodule_0_roi_3950.png,4,1,0.5068135,1
+LIDC-IDRI-0191,0,data/nodule_crops/LIDC-IDRI-0191/nodule_0_roi_3951.png,4,1,0.50486755,1
+LIDC-IDRI-0163,154675,data/nodule_crops/LIDC-IDRI-0163/nodule_154675_roi_3953.png,4,1,0.48735422,0
+LIDC-IDRI-0163,154675,data/nodule_crops/LIDC-IDRI-0163/nodule_154675_roi_3954.png,4,1,0.48442733,0
+LIDC-IDRI-0163,154675,data/nodule_crops/LIDC-IDRI-0163/nodule_154675_roi_3955.png,4,1,0.48806965,0
+LIDC-IDRI-0163,154675,data/nodule_crops/LIDC-IDRI-0163/nodule_154675_roi_3956.png,4,1,0.49354225,0
+LIDC-IDRI-0163,154675,data/nodule_crops/LIDC-IDRI-0163/nodule_154675_roi_3957.png,4,1,0.4987556,0
+LIDC-IDRI-0163,154675,data/nodule_crops/LIDC-IDRI-0163/nodule_154675_roi_3958.png,4,1,0.5021979,1
+LIDC-IDRI-0163,154675,data/nodule_crops/LIDC-IDRI-0163/nodule_154675_roi_3959.png,4,1,0.4975003,0
+LIDC-IDRI-0163,154675,data/nodule_crops/LIDC-IDRI-0163/nodule_154675_roi_3960.png,4,1,0.4900108,0
+LIDC-IDRI-0163,154675,data/nodule_crops/LIDC-IDRI-0163/nodule_154675_roi_3961.png,4,1,0.48927262,0
+LIDC-IDRI-0163,0,data/nodule_crops/LIDC-IDRI-0163/nodule_0_roi_3962.png,4,1,0.48342413,0
+LIDC-IDRI-0163,0,data/nodule_crops/LIDC-IDRI-0163/nodule_0_roi_3963.png,4,1,0.48591816,0
+LIDC-IDRI-0163,0,data/nodule_crops/LIDC-IDRI-0163/nodule_0_roi_3964.png,4,1,0.49087936,0
+LIDC-IDRI-0163,0,data/nodule_crops/LIDC-IDRI-0163/nodule_0_roi_3965.png,4,1,0.49354225,0
+LIDC-IDRI-0163,0,data/nodule_crops/LIDC-IDRI-0163/nodule_0_roi_3966.png,4,1,0.5022149,1
+LIDC-IDRI-0163,0,data/nodule_crops/LIDC-IDRI-0163/nodule_0_roi_3967.png,4,1,0.50226015,1
+LIDC-IDRI-0163,0,data/nodule_crops/LIDC-IDRI-0163/nodule_0_roi_3968.png,4,1,0.49694774,0
+LIDC-IDRI-0163,0,data/nodule_crops/LIDC-IDRI-0163/nodule_0_roi_3969.png,4,1,0.49050725,0
+LIDC-IDRI-0163,0,data/nodule_crops/LIDC-IDRI-0163/nodule_0_roi_3970.png,4,1,0.48927262,0
+LIDC-IDRI-0163,Nodule 001,data/nodule_crops/LIDC-IDRI-0163/nodule_Nodule 001_roi_3972.png,4,1,0.49211243,0
+LIDC-IDRI-0163,Nodule 001,data/nodule_crops/LIDC-IDRI-0163/nodule_Nodule 001_roi_3973.png,4,1,0.49234802,0
+LIDC-IDRI-0163,Nodule 001,data/nodule_crops/LIDC-IDRI-0163/nodule_Nodule 001_roi_3974.png,4,1,0.5016845,1
+LIDC-IDRI-0163,Nodule 001,data/nodule_crops/LIDC-IDRI-0163/nodule_Nodule 001_roi_3975.png,4,1,0.50226015,1
+LIDC-IDRI-0163,Nodule 001,data/nodule_crops/LIDC-IDRI-0163/nodule_Nodule 001_roi_3976.png,4,1,0.4987556,0
+LIDC-IDRI-0163,Nodule 001,data/nodule_crops/LIDC-IDRI-0163/nodule_Nodule 001_roi_3977.png,4,1,0.49354225,0
+LIDC-IDRI-0163,Nodule 001,data/nodule_crops/LIDC-IDRI-0163/nodule_Nodule 001_roi_3978.png,4,1,0.48781353,0
+LIDC-IDRI-0163,Nodule 001,data/nodule_crops/LIDC-IDRI-0163/nodule_Nodule 001_roi_3979.png,4,1,0.48442733,0
+LIDC-IDRI-0163,Nodule 001,data/nodule_crops/LIDC-IDRI-0163/nodule_Nodule 001_roi_3980.png,4,1,0.48706946,0
+LIDC-IDRI-0163,201271,data/nodule_crops/LIDC-IDRI-0163/nodule_201271_roi_3982.png,5,1,0.4812886,0
+LIDC-IDRI-0163,201271,data/nodule_crops/LIDC-IDRI-0163/nodule_201271_roi_3983.png,5,1,0.48591816,0
+LIDC-IDRI-0163,201271,data/nodule_crops/LIDC-IDRI-0163/nodule_201271_roi_3984.png,5,1,0.49037087,0
+LIDC-IDRI-0163,201271,data/nodule_crops/LIDC-IDRI-0163/nodule_201271_roi_3985.png,5,1,0.49710926,0
+LIDC-IDRI-0163,201271,data/nodule_crops/LIDC-IDRI-0163/nodule_201271_roi_3986.png,5,1,0.5026544,1
+LIDC-IDRI-0163,201271,data/nodule_crops/LIDC-IDRI-0163/nodule_201271_roi_3987.png,5,1,0.502431,1
+LIDC-IDRI-0163,201271,data/nodule_crops/LIDC-IDRI-0163/nodule_201271_roi_3988.png,5,1,0.4944265,0
+LIDC-IDRI-0163,201271,data/nodule_crops/LIDC-IDRI-0163/nodule_201271_roi_3989.png,5,1,0.4900108,0
+LIDC-IDRI-0163,201271,data/nodule_crops/LIDC-IDRI-0163/nodule_201271_roi_3990.png,5,1,0.4898174,0
+LIDC-IDRI-0163,201271,data/nodule_crops/LIDC-IDRI-0163/nodule_201271_roi_3991.png,5,1,0.49036303,0
+LIDC-IDRI-0268,1,data/nodule_crops/LIDC-IDRI-0268/nodule_1_roi_4363.png,1,0,0.4860184,0
+LIDC-IDRI-0268,1,data/nodule_crops/LIDC-IDRI-0268/nodule_1_roi_4364.png,1,0,0.48884812,0
+LIDC-IDRI-0162,2,data/nodule_crops/LIDC-IDRI-0162/nodule_2_roi_4368.png,2,0,0.5092618,1
+LIDC-IDRI-0162,2,data/nodule_crops/LIDC-IDRI-0162/nodule_2_roi_4369.png,2,0,0.5117666,1
+LIDC-IDRI-0162,2,data/nodule_crops/LIDC-IDRI-0162/nodule_2_roi_4370.png,2,0,0.51175344,1
+LIDC-IDRI-0162,2,data/nodule_crops/LIDC-IDRI-0162/nodule_2_roi_4371.png,2,0,0.5101824,1
+LIDC-IDRI-0162,160412,data/nodule_crops/LIDC-IDRI-0162/nodule_160412_roi_4376.png,4,1,0.51069653,1
+LIDC-IDRI-0162,160412,data/nodule_crops/LIDC-IDRI-0162/nodule_160412_roi_4377.png,4,1,0.510909,1
+LIDC-IDRI-0162,162770,data/nodule_crops/LIDC-IDRI-0162/nodule_162770_roi_4382.png,3,0,0.50874877,1
+LIDC-IDRI-0162,162770,data/nodule_crops/LIDC-IDRI-0162/nodule_162770_roi_4383.png,3,0,0.51069653,1
+LIDC-IDRI-0162,162770,data/nodule_crops/LIDC-IDRI-0162/nodule_162770_roi_4384.png,3,0,0.51175344,1
+LIDC-IDRI-0162,162770,data/nodule_crops/LIDC-IDRI-0162/nodule_162770_roi_4385.png,3,0,0.5101824,1
+LIDC-IDRI-0162,Nodule 001,data/nodule_crops/LIDC-IDRI-0162/nodule_Nodule 001_roi_4387.png,2,0,0.5276423,1
+LIDC-IDRI-0162,Nodule 001,data/nodule_crops/LIDC-IDRI-0162/nodule_Nodule 001_roi_4388.png,2,0,0.5308817,1
+LIDC-IDRI-0162,Nodule 005,data/nodule_crops/LIDC-IDRI-0162/nodule_Nodule 005_roi_4389.png,2,0,0.5101824,1
+LIDC-IDRI-0162,Nodule 005,data/nodule_crops/LIDC-IDRI-0162/nodule_Nodule 005_roi_4390.png,2,0,0.51175344,1
+LIDC-IDRI-0162,Nodule 005,data/nodule_crops/LIDC-IDRI-0162/nodule_Nodule 005_roi_4391.png,2,0,0.51069653,1
+LIDC-IDRI-0162,Nodule 005,data/nodule_crops/LIDC-IDRI-0162/nodule_Nodule 005_roi_4392.png,2,0,0.50874877,1
+LIDC-IDRI-0242,0,data/nodule_crops/LIDC-IDRI-0242/nodule_0_roi_4559.png,4,1,0.51550543,1
+LIDC-IDRI-0242,0,data/nodule_crops/LIDC-IDRI-0242/nodule_0_roi_4560.png,4,1,0.51388013,1
+LIDC-IDRI-0242,0,data/nodule_crops/LIDC-IDRI-0242/nodule_0_roi_4561.png,4,1,0.51532775,1
+LIDC-IDRI-0242,0,data/nodule_crops/LIDC-IDRI-0242/nodule_0_roi_4562.png,4,1,0.51617986,1
+LIDC-IDRI-0242,0,data/nodule_crops/LIDC-IDRI-0242/nodule_0_roi_4563.png,4,1,0.5217059,1
+LIDC-IDRI-0242,0,data/nodule_crops/LIDC-IDRI-0242/nodule_0_roi_4564.png,4,1,0.5242816,1
+LIDC-IDRI-0242,0,data/nodule_crops/LIDC-IDRI-0242/nodule_0_roi_4565.png,4,1,0.5145167,1
+LIDC-IDRI-0242,0,data/nodule_crops/LIDC-IDRI-0242/nodule_0_roi_4566.png,4,1,0.5056646,1
+LIDC-IDRI-0242,0,data/nodule_crops/LIDC-IDRI-0242/nodule_0_roi_4567.png,4,1,0.48843405,0
+LIDC-IDRI-0242,163300,data/nodule_crops/LIDC-IDRI-0242/nodule_163300_roi_4570.png,5,1,0.5139835,1
+LIDC-IDRI-0242,163300,data/nodule_crops/LIDC-IDRI-0242/nodule_163300_roi_4571.png,5,1,0.5122134,1
+LIDC-IDRI-0242,163300,data/nodule_crops/LIDC-IDRI-0242/nodule_163300_roi_4572.png,5,1,0.5147087,1
+LIDC-IDRI-0242,163300,data/nodule_crops/LIDC-IDRI-0242/nodule_163300_roi_4573.png,5,1,0.5219134,1
+LIDC-IDRI-0242,163300,data/nodule_crops/LIDC-IDRI-0242/nodule_163300_roi_4574.png,5,1,0.52399737,1
+LIDC-IDRI-0242,163300,data/nodule_crops/LIDC-IDRI-0242/nodule_163300_roi_4575.png,5,1,0.51530737,1
+LIDC-IDRI-0242,163300,data/nodule_crops/LIDC-IDRI-0242/nodule_163300_roi_4576.png,5,1,0.50271463,1
+LIDC-IDRI-0242,163300,data/nodule_crops/LIDC-IDRI-0242/nodule_163300_roi_4577.png,5,1,0.4893189,0
+LIDC-IDRI-0242,161388,data/nodule_crops/LIDC-IDRI-0242/nodule_161388_roi_4578.png,5,1,0.5130906,1
+LIDC-IDRI-0242,161388,data/nodule_crops/LIDC-IDRI-0242/nodule_161388_roi_4579.png,5,1,0.5122134,1
+LIDC-IDRI-0242,161388,data/nodule_crops/LIDC-IDRI-0242/nodule_161388_roi_4580.png,5,1,0.5147087,1
+LIDC-IDRI-0242,161388,data/nodule_crops/LIDC-IDRI-0242/nodule_161388_roi_4581.png,5,1,0.5219134,1
+LIDC-IDRI-0242,161388,data/nodule_crops/LIDC-IDRI-0242/nodule_161388_roi_4582.png,5,1,0.52399737,1
+LIDC-IDRI-0242,161388,data/nodule_crops/LIDC-IDRI-0242/nodule_161388_roi_4583.png,5,1,0.5147421,1
+LIDC-IDRI-0242,161388,data/nodule_crops/LIDC-IDRI-0242/nodule_161388_roi_4584.png,5,1,0.5034392,1
+LIDC-IDRI-0242,Nodule 001,data/nodule_crops/LIDC-IDRI-0242/nodule_Nodule 001_roi_4586.png,5,1,0.5028877,1
+LIDC-IDRI-0242,Nodule 001,data/nodule_crops/LIDC-IDRI-0242/nodule_Nodule 001_roi_4587.png,5,1,0.51554155,1
+LIDC-IDRI-0242,Nodule 001,data/nodule_crops/LIDC-IDRI-0242/nodule_Nodule 001_roi_4588.png,5,1,0.5247665,1
+LIDC-IDRI-0242,Nodule 001,data/nodule_crops/LIDC-IDRI-0242/nodule_Nodule 001_roi_4589.png,5,1,0.519342,1
+LIDC-IDRI-0242,Nodule 001,data/nodule_crops/LIDC-IDRI-0242/nodule_Nodule 001_roi_4590.png,5,1,0.505582,1
+LIDC-IDRI-0242,Nodule 001,data/nodule_crops/LIDC-IDRI-0242/nodule_Nodule 001_roi_4591.png,5,1,0.5121414,1
+LIDC-IDRI-0242,Nodule 001,data/nodule_crops/LIDC-IDRI-0242/nodule_Nodule 001_roi_4592.png,5,1,0.51321226,1
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4611.png,5,1,0.5141234,1
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4612.png,5,1,0.5149883,1
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4613.png,5,1,0.5147127,1
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4614.png,5,1,0.5155446,1
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4615.png,5,1,0.51518893,1
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4616.png,5,1,0.51227516,1
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4617.png,5,1,0.5123512,1
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4618.png,5,1,0.5105165,1
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4619.png,5,1,0.51111376,1
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4620.png,5,1,0.50932527,1
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4621.png,5,1,0.5076919,1
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4622.png,5,1,0.5072621,1
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4623.png,5,1,0.5077624,1
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4624.png,5,1,0.5085689,1
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4625.png,5,1,0.5066109,1
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4626.png,5,1,0.50405365,1
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4627.png,5,1,0.5092278,1
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4628.png,5,1,0.50531894,1
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4629.png,5,1,0.5005781,1
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4630.png,5,1,0.48880783,0
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4631.png,5,1,0.47993103,0
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4632.png,5,1,0.4784176,0
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4633.png,5,1,0.47319436,0
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4634.png,5,1,0.47301677,0
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4635.png,5,1,0.47098908,0
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4636.png,5,1,0.4730571,0
+LIDC-IDRI-0072,101448,data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4637.png,5,1,0.4726973,0
+LIDC-IDRI-0072,123231,data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4639.png,5,1,0.51346487,1
+LIDC-IDRI-0072,123231,data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4640.png,5,1,0.51315,1
+LIDC-IDRI-0072,123231,data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4641.png,5,1,0.5125546,1
+LIDC-IDRI-0072,123231,data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4642.png,5,1,0.51433384,1
+LIDC-IDRI-0072,123231,data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4643.png,5,1,0.5147127,1
+LIDC-IDRI-0072,123231,data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4644.png,5,1,0.5155446,1
+LIDC-IDRI-0072,123231,data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4645.png,5,1,0.511209,1
+LIDC-IDRI-0072,123231,data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4646.png,5,1,0.5091139,1
+LIDC-IDRI-0072,123231,data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4647.png,5,1,0.5099688,1
+LIDC-IDRI-0072,123231,data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4648.png,5,1,0.5086009,1
+LIDC-IDRI-0072,123231,data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4649.png,5,1,0.5100754,1
+LIDC-IDRI-0072,123231,data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4650.png,5,1,0.5066109,1
+LIDC-IDRI-0072,123231,data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4651.png,5,1,0.50811005,1
+LIDC-IDRI-0072,123231,data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4652.png,5,1,0.5092278,1
+LIDC-IDRI-0072,123231,data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4653.png,5,1,0.50192225,1
+LIDC-IDRI-0072,123231,data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4654.png,5,1,0.4992676,0
+LIDC-IDRI-0072,123231,data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4655.png,5,1,0.48767358,0
+LIDC-IDRI-0072,123231,data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4656.png,5,1,0.4816256,0
+LIDC-IDRI-0072,123231,data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4657.png,5,1,0.47745907,0
+LIDC-IDRI-0072,123231,data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4658.png,5,1,0.47319436,0
+LIDC-IDRI-0072,123231,data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4659.png,5,1,0.47247368,0
+LIDC-IDRI-0072,123231,data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4660.png,5,1,0.47382048,0
+LIDC-IDRI-0072,123231,data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4661.png,5,1,0.4730571,0
+LIDC-IDRI-0072,Nodule 002,data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4664.png,5,1,0.47154132,0
+LIDC-IDRI-0072,Nodule 002,data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4665.png,5,1,0.47341096,0
+LIDC-IDRI-0072,Nodule 002,data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4666.png,5,1,0.47114807,0
+LIDC-IDRI-0072,Nodule 002,data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4667.png,5,1,0.47141737,0
+LIDC-IDRI-0072,Nodule 002,data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4668.png,5,1,0.47382945,0
+LIDC-IDRI-0072,Nodule 002,data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4669.png,5,1,0.47193834,0
+LIDC-IDRI-0072,Nodule 002,data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4670.png,5,1,0.4743604,0
+LIDC-IDRI-0072,Nodule 002,data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4671.png,5,1,0.4761902,0
+LIDC-IDRI-0072,Nodule 002,data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4672.png,5,1,0.48391405,0
+LIDC-IDRI-0072,Nodule 002,data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4673.png,5,1,0.49203765,0
+LIDC-IDRI-0072,Nodule 002,data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4674.png,5,1,0.49968925,0
+LIDC-IDRI-0072,Nodule 002,data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4675.png,5,1,0.5032107,1
+LIDC-IDRI-0072,Nodule 002,data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4676.png,5,1,0.506679,1
+LIDC-IDRI-0072,Nodule 002,data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4677.png,5,1,0.5085689,1
+LIDC-IDRI-0072,Nodule 002,data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4678.png,5,1,0.5066521,1
+LIDC-IDRI-0072,Nodule 002,data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4679.png,5,1,0.50687283,1
+LIDC-IDRI-0072,Nodule 002,data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4680.png,5,1,0.5081176,1
+LIDC-IDRI-0072,Nodule 002,data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4681.png,5,1,0.5119463,1
+LIDC-IDRI-0072,Nodule 002,data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4682.png,5,1,0.51536506,1
+LIDC-IDRI-0072,Nodule 002,data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4683.png,5,1,0.514237,1
+LIDC-IDRI-0072,Nodule 002,data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4684.png,5,1,0.5141682,1
+LIDC-IDRI-0072,Nodule 002,data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4685.png,5,1,0.5133309,1
+LIDC-IDRI-0072,Nodule 002,data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4686.png,5,1,0.5131502,1

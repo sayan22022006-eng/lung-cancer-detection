@@ -1,0 +1,44 @@
+============================================================
+LUNG CANCER MODEL - EVALUATION REPORT
+============================================================
+
+TRAINING HISTORY
+Epochs recorded: 8
+Best validation accuracy: 0.5509 (epoch 2)
+Best validation loss: 0.6837 (epoch 3)
+
+FINAL EPOCH
+Training accuracy:   0.6126
+Validation accuracy: 0.4504
+Training loss:       0.7065
+Validation loss:     0.7512
+Accuracy gap:        0.1622
+Loss gap:            0.0448
+
+TEST SET
+Test samples: 419
+Accuracy:  0.7446
+Precision: 0.7847
+Recall:    0.8175
+F1 Score:  0.8007
+ROC-AUC:   0.7737
+
+CONFUSION MATRIX
+[[TN=97, FP=59],
+ [FN=48, TP=215]]
+
+OVERFITTING ASSESSMENT
+POSSIBLE / MILD OVERFITTING
+Validation-to-test accuracy difference: -0.2942
+
+RECOMMENDATION
+The current model is reasonably useful as a project baseline. Do not change the model only for the sake of changing it. If time permits, compare one stronger strategy (for example, patient-level aggregation or a better pretrained model) as an experiment.
+
+OUTPUT FILES
+training_vs_validation_accuracy.png
+training_vs_validation_loss.png
+roc_curve_auc.png (if probability column is available)
+confusion_matrix.png
+test_prediction_analysis.png
+evaluation_report.txt
+============================================================

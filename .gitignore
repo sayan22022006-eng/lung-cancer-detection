@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+venv312/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Flask uploaded files
+backend/uploads/
+
+# SQLite / local history
+*.db
+*.sqlite
+*.sqlite3
+
+# Large/raw datasets
+data/text/xraydar-reports.jsonl
+data/nodule_crops/
+data/nodule_crops_64/
+data/*.dcm
+data/**/*.dcm
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Old/experimental model versions
+models/lung_cancer_model.keras
+models/lung_cancer_model_128.keras
+models/lung_cancer_model_128_improved.keras
+models/lung_cancer_model_v4.keras
+models/lung_cancer_model_v5_stage1.keras
+models/lung_cancer_model_v5_stage2.keras
+
+# Old/raw annotation export
+data/nodule_annotations.csv
+
+# Raw LIDC annotation files
+annotations/
+
+# Local backup files
+backend/app_backup.py
+
+# Raw LIDC annotation files
+annotations/
+
+# Local backup files
+backend/app_backup.py
+
+# Dataset-derived annotation files
+data/nodule_annotations_matched.csv
+data/nodule_annotations_v2.csv
+
+# Derived radiology report dataset
+data/text/lung_finding_dataset.csv
+data/text/text_test_predictions.csv
+
+# Dataset-derived medical image
+data/visualizations/LIDC-IDRI-0470_nodule_174079.png

@@ -1,0 +1,420 @@
+patient_id,nodule_id,image_path,malignancy,binary_label,prediction_probability,predicted_label
+LIDC-IDRI-0276,1,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0276/nodule_1_roi_150.png,4,1,0.7990068,1
+LIDC-IDRI-0276,1,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0276/nodule_1_roi_151.png,4,1,0.8250239,1
+LIDC-IDRI-0276,1,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0276/nodule_1_roi_152.png,4,1,0.8414017,1
+LIDC-IDRI-0276,168669,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0276/nodule_168669_roi_154.png,3,0,0.6807524,1
+LIDC-IDRI-0276,168669,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0276/nodule_168669_roi_155.png,3,0,0.80384165,1
+LIDC-IDRI-0276,168669,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0276/nodule_168669_roi_156.png,3,0,0.82675236,1
+LIDC-IDRI-0276,168669,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0276/nodule_168669_roi_157.png,3,0,0.80167633,1
+LIDC-IDRI-0276,168669,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0276/nodule_168669_roi_158.png,3,0,0.60389674,1
+LIDC-IDRI-0276,168085,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0276/nodule_168085_roi_159.png,3,0,0.33177155,0
+LIDC-IDRI-0276,168085,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0276/nodule_168085_roi_160.png,3,0,0.41715676,0
+LIDC-IDRI-0276,168084,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0276/nodule_168084_roi_161.png,4,1,0.8288206,1
+LIDC-IDRI-0276,168084,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0276/nodule_168084_roi_162.png,4,1,0.82675236,1
+LIDC-IDRI-0276,168084,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0276/nodule_168084_roi_163.png,4,1,0.80167633,1
+LIDC-IDRI-0276,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0276/nodule_Nodule 001_roi_164.png,4,1,0.8151691,1
+LIDC-IDRI-0276,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0276/nodule_Nodule 001_roi_165.png,4,1,0.82675236,1
+LIDC-IDRI-0276,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0276/nodule_Nodule 001_roi_166.png,4,1,0.789324,1
+LIDC-IDRI-0399,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0399/nodule_Nodule 002_roi_1390.png,2,0,0.09200288,0
+LIDC-IDRI-0399,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0399/nodule_Nodule 002_roi_1391.png,2,0,0.071641706,0
+LIDC-IDRI-0399,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0399/nodule_Nodule 002_roi_1392.png,2,0,0.07064113,0
+LIDC-IDRI-0399,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0399/nodule_Nodule 002_roi_1393.png,2,0,0.05822852,0
+LIDC-IDRI-0399,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0399/nodule_Nodule 002_roi_1394.png,2,0,0.039492954,0
+LIDC-IDRI-0399,172679,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0399/nodule_172679_roi_1396.png,2,0,0.09200288,0
+LIDC-IDRI-0399,172679,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0399/nodule_172679_roi_1397.png,2,0,0.061238553,0
+LIDC-IDRI-0399,172679,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0399/nodule_172679_roi_1398.png,2,0,0.066565126,0
+LIDC-IDRI-0399,172679,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0399/nodule_172679_roi_1399.png,2,0,0.05822852,0
+LIDC-IDRI-0399,172679,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0399/nodule_172679_roi_1400.png,2,0,0.04000035,0
+LIDC-IDRI-0399,172681,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0399/nodule_172681_roi_1401.png,2,0,0.018885545,0
+LIDC-IDRI-0399,174508,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0399/nodule_174508_roi_1403.png,2,0,0.061238553,0
+LIDC-IDRI-0399,174508,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0399/nodule_174508_roi_1404.png,2,0,0.066565126,0
+LIDC-IDRI-0399,174508,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0399/nodule_174508_roi_1405.png,2,0,0.06957001,0
+LIDC-IDRI-0399,174508,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0399/nodule_174508_roi_1406.png,2,0,0.04382654,0
+LIDC-IDRI-0568,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_0_roi_1605.png,1,0,0.21405707,0
+LIDC-IDRI-0568,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_0_roi_1606.png,1,0,0.2185579,0
+LIDC-IDRI-0568,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_0_roi_1607.png,1,0,0.22280757,0
+LIDC-IDRI-0568,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_0_roi_1608.png,1,0,0.21278319,0
+LIDC-IDRI-0568,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_0_roi_1609.png,1,0,0.25185516,0
+LIDC-IDRI-0568,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_0_roi_1610.png,1,0,0.23938619,0
+LIDC-IDRI-0568,2,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_2_roi_1611.png,1,0,0.14307156,0
+LIDC-IDRI-0568,2,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_2_roi_1612.png,1,0,0.13664114,0
+LIDC-IDRI-0568,2,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_2_roi_1613.png,1,0,0.15140304,0
+LIDC-IDRI-0568,2,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_2_roi_1614.png,1,0,0.18181658,0
+LIDC-IDRI-0568,3,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_3_roi_1615.png,3,0,0.108845115,0
+LIDC-IDRI-0568,3,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_3_roi_1616.png,3,0,0.12656048,0
+LIDC-IDRI-0568,3,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_3_roi_1617.png,3,0,0.15053473,0
+LIDC-IDRI-0568,3,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_3_roi_1618.png,3,0,0.14181034,0
+LIDC-IDRI-0568,4,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_4_roi_1619.png,3,0,0.27455044,0
+LIDC-IDRI-0568,4,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_4_roi_1620.png,3,0,0.29244924,0
+LIDC-IDRI-0568,4,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_4_roi_1621.png,3,0,0.35749912,0
+LIDC-IDRI-0568,77879,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_77879_roi_1622.png,1,0,0.14257057,0
+LIDC-IDRI-0568,77879,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_77879_roi_1623.png,1,0,0.13664114,0
+LIDC-IDRI-0568,77879,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_77879_roi_1624.png,1,0,0.16064093,0
+LIDC-IDRI-0568,77879,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_77879_roi_1625.png,1,0,0.16892819,0
+LIDC-IDRI-0568,77876,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_77876_roi_1626.png,1,0,0.21046089,0
+LIDC-IDRI-0568,77876,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_77876_roi_1627.png,1,0,0.22714266,0
+LIDC-IDRI-0568,77876,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_77876_roi_1628.png,1,0,0.20755994,0
+LIDC-IDRI-0568,77876,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_77876_roi_1629.png,1,0,0.21278319,0
+LIDC-IDRI-0568,77876,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_77876_roi_1630.png,1,0,0.25185516,0
+LIDC-IDRI-0568,77881,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_77881_roi_1631.png,3,0,0.1449036,0
+LIDC-IDRI-0568,77881,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_77881_roi_1632.png,3,0,0.13004643,0
+LIDC-IDRI-0568,77881,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_77881_roi_1633.png,3,0,0.12583965,0
+LIDC-IDRI-0568,77881,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_77881_roi_1634.png,3,0,0.14526072,0
+LIDC-IDRI-0568,77881,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_77881_roi_1635.png,3,0,0.16908087,0
+LIDC-IDRI-0568,75190,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_75190_roi_1636.png,2,0,0.11782921,0
+LIDC-IDRI-0568,75190,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_75190_roi_1637.png,2,0,0.12583965,0
+LIDC-IDRI-0568,75190,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_75190_roi_1638.png,2,0,0.15053473,0
+LIDC-IDRI-0568,75190,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_75190_roi_1639.png,2,0,0.16908087,0
+LIDC-IDRI-0568,75187,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_75187_roi_1640.png,1,0,0.14257057,0
+LIDC-IDRI-0568,75187,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_75187_roi_1641.png,1,0,0.13664114,0
+LIDC-IDRI-0568,75187,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_75187_roi_1642.png,1,0,0.15140304,0
+LIDC-IDRI-0568,75187,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_75187_roi_1643.png,1,0,0.17346431,0
+LIDC-IDRI-0568,75184,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_75184_roi_1644.png,1,0,0.21046089,0
+LIDC-IDRI-0568,75184,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_75184_roi_1645.png,1,0,0.22714266,0
+LIDC-IDRI-0568,75184,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_75184_roi_1646.png,1,0,0.20755994,0
+LIDC-IDRI-0568,75184,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_75184_roi_1647.png,1,0,0.21278319,0
+LIDC-IDRI-0568,Nodule 003,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 003_roi_1648.png,1,0,0.25185516,0
+LIDC-IDRI-0568,Nodule 003,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 003_roi_1649.png,1,0,0.20455982,0
+LIDC-IDRI-0568,Nodule 003,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 003_roi_1650.png,1,0,0.22280757,0
+LIDC-IDRI-0568,Nodule 003,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 003_roi_1651.png,1,0,0.2185579,0
+LIDC-IDRI-0568,Nodule 003,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 003_roi_1652.png,1,0,0.21046089,0
+LIDC-IDRI-0568,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 002_roi_1653.png,1,0,0.16892819,0
+LIDC-IDRI-0568,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 002_roi_1654.png,1,0,0.15140304,0
+LIDC-IDRI-0568,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 002_roi_1655.png,1,0,0.12123864,0
+LIDC-IDRI-0568,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 002_roi_1656.png,1,0,0.14307156,0
+LIDC-IDRI-0568,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 001_roi_1657.png,3,0,0.16832803,0
+LIDC-IDRI-0568,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 001_roi_1658.png,3,0,0.14931773,0
+LIDC-IDRI-0568,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 001_roi_1659.png,3,0,0.12583965,0
+LIDC-IDRI-0568,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0568/nodule_Nodule 001_roi_1660.png,3,0,0.11025437,0
+LIDC-IDRI-0211,1,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3333.png,3,0,0.6636935,1
+LIDC-IDRI-0211,1,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3334.png,3,0,0.6151922,1
+LIDC-IDRI-0211,1,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3335.png,3,0,0.569682,1
+LIDC-IDRI-0211,1,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3336.png,3,0,0.56819016,1
+LIDC-IDRI-0211,1,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3337.png,3,0,0.599615,1
+LIDC-IDRI-0211,1,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3338.png,3,0,0.6291888,1
+LIDC-IDRI-0211,1,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3339.png,3,0,0.6712195,1
+LIDC-IDRI-0211,1,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3340.png,3,0,0.6143219,1
+LIDC-IDRI-0211,1,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3341.png,3,0,0.68095386,1
+LIDC-IDRI-0211,1,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3342.png,3,0,0.7097811,1
+LIDC-IDRI-0211,1,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3343.png,3,0,0.62350994,1
+LIDC-IDRI-0211,1,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3344.png,3,0,0.5833774,1
+LIDC-IDRI-0211,1,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3345.png,3,0,0.5770366,1
+LIDC-IDRI-0211,1,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3346.png,3,0,0.5372901,1
+LIDC-IDRI-0211,1,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3347.png,3,0,0.57002217,1
+LIDC-IDRI-0211,1,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_1_roi_3348.png,3,0,0.53909045,1
+LIDC-IDRI-0211,171504,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171504_roi_3349.png,2,0,0.1687489,0
+LIDC-IDRI-0211,171504,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171504_roi_3350.png,2,0,0.18773502,0
+LIDC-IDRI-0211,171504,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171504_roi_3351.png,2,0,0.15439111,0
+LIDC-IDRI-0211,171504,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171504_roi_3352.png,2,0,0.15657464,0
+LIDC-IDRI-0211,171500,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3353.png,5,1,0.6403012,1
+LIDC-IDRI-0211,171500,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3354.png,5,1,0.5672563,1
+LIDC-IDRI-0211,171500,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3355.png,5,1,0.5947167,1
+LIDC-IDRI-0211,171500,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3356.png,5,1,0.6261048,1
+LIDC-IDRI-0211,171500,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3357.png,5,1,0.49903083,0
+LIDC-IDRI-0211,171500,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3358.png,5,1,0.62017816,1
+LIDC-IDRI-0211,171500,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3359.png,5,1,0.55077255,1
+LIDC-IDRI-0211,171500,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3360.png,5,1,0.51545894,1
+LIDC-IDRI-0211,171500,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3361.png,5,1,0.5477953,1
+LIDC-IDRI-0211,171500,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3362.png,5,1,0.599615,1
+LIDC-IDRI-0211,171500,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3363.png,5,1,0.5906663,1
+LIDC-IDRI-0211,171500,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3364.png,5,1,0.64333,1
+LIDC-IDRI-0211,171500,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3365.png,5,1,0.6422275,1
+LIDC-IDRI-0211,171500,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3366.png,5,1,0.6777305,1
+LIDC-IDRI-0211,171500,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3367.png,5,1,0.70966625,1
+LIDC-IDRI-0211,171500,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3368.png,5,1,0.66159415,1
+LIDC-IDRI-0211,171500,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3369.png,5,1,0.58371764,1
+LIDC-IDRI-0211,171500,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3370.png,5,1,0.5998153,1
+LIDC-IDRI-0211,171500,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3371.png,5,1,0.56969196,1
+LIDC-IDRI-0211,171500,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3372.png,5,1,0.5292346,1
+LIDC-IDRI-0211,171500,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_171500_roi_3373.png,5,1,0.48290357,0
+LIDC-IDRI-0211,168147,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3374.png,5,1,0.5577738,1
+LIDC-IDRI-0211,168147,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3375.png,5,1,0.49211648,0
+LIDC-IDRI-0211,168147,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3376.png,5,1,0.6380484,1
+LIDC-IDRI-0211,168147,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3377.png,5,1,0.5807759,1
+LIDC-IDRI-0211,168147,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3378.png,5,1,0.5599734,1
+LIDC-IDRI-0211,168147,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3379.png,5,1,0.5658397,1
+LIDC-IDRI-0211,168147,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3380.png,5,1,0.5769296,1
+LIDC-IDRI-0211,168147,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3381.png,5,1,0.5906663,1
+LIDC-IDRI-0211,168147,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3382.png,5,1,0.67197573,1
+LIDC-IDRI-0211,168147,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3383.png,5,1,0.6422275,1
+LIDC-IDRI-0211,168147,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3384.png,5,1,0.66508883,1
+LIDC-IDRI-0211,168147,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3385.png,5,1,0.71041185,1
+LIDC-IDRI-0211,168147,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3386.png,5,1,0.66159415,1
+LIDC-IDRI-0211,168147,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3387.png,5,1,0.5467763,1
+LIDC-IDRI-0211,168147,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3388.png,5,1,0.5998153,1
+LIDC-IDRI-0211,168147,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3389.png,5,1,0.56969196,1
+LIDC-IDRI-0211,168147,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_168147_roi_3390.png,5,1,0.5010095,1
+LIDC-IDRI-0211,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3391.png,5,1,0.60219234,1
+LIDC-IDRI-0211,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3392.png,5,1,0.6010757,1
+LIDC-IDRI-0211,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3393.png,5,1,0.64414686,1
+LIDC-IDRI-0211,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3394.png,5,1,0.56522197,1
+LIDC-IDRI-0211,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3395.png,5,1,0.6207214,1
+LIDC-IDRI-0211,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3396.png,5,1,0.521186,1
+LIDC-IDRI-0211,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3397.png,5,1,0.569682,1
+LIDC-IDRI-0211,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3398.png,5,1,0.5797651,1
+LIDC-IDRI-0211,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3399.png,5,1,0.5888868,1
+LIDC-IDRI-0211,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3400.png,5,1,0.6007414,1
+LIDC-IDRI-0211,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3401.png,5,1,0.61550003,1
+LIDC-IDRI-0211,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3402.png,5,1,0.6778947,1
+LIDC-IDRI-0211,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3403.png,5,1,0.6777305,1
+LIDC-IDRI-0211,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3404.png,5,1,0.7023486,1
+LIDC-IDRI-0211,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3405.png,5,1,0.625022,1
+LIDC-IDRI-0211,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3406.png,5,1,0.60443425,1
+LIDC-IDRI-0211,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3407.png,5,1,0.61582416,1
+LIDC-IDRI-0211,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3408.png,5,1,0.57819504,1
+LIDC-IDRI-0211,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0211/nodule_Nodule 001_roi_3409.png,5,1,0.54146683,1
+LIDC-IDRI-0171,3,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_3_roi_3833.png,2,0,0.17565915,0
+LIDC-IDRI-0171,3,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_3_roi_3834.png,2,0,0.21575429,0
+LIDC-IDRI-0171,3,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_3_roi_3835.png,2,0,0.23573549,0
+LIDC-IDRI-0171,3,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_3_roi_3836.png,2,0,0.14980258,0
+LIDC-IDRI-0171,4,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_4_roi_3837.png,2,0,0.09533322,0
+LIDC-IDRI-0171,4,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_4_roi_3838.png,2,0,0.103727415,0
+LIDC-IDRI-0171,4,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_4_roi_3839.png,2,0,0.16061291,0
+LIDC-IDRI-0171,5,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_5_roi_3840.png,2,0,0.065004386,0
+LIDC-IDRI-0171,5,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_5_roi_3841.png,2,0,0.08961669,0
+LIDC-IDRI-0171,5,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_5_roi_3842.png,2,0,0.096905686,0
+LIDC-IDRI-0171,6,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_6_roi_3843.png,2,0,0.34858468,0
+LIDC-IDRI-0171,6,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_6_roi_3844.png,2,0,0.3769571,0
+LIDC-IDRI-0171,6,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_6_roi_3845.png,2,0,0.3736486,0
+LIDC-IDRI-0171,6,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_6_roi_3846.png,2,0,0.42203364,0
+LIDC-IDRI-0171,6,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_6_roi_3847.png,2,0,0.3295691,0
+LIDC-IDRI-0171,6,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_6_roi_3848.png,2,0,0.30026865,0
+LIDC-IDRI-0171,6,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_6_roi_3849.png,2,0,0.2903642,0
+LIDC-IDRI-0171,6,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_6_roi_3850.png,2,0,0.28754017,0
+LIDC-IDRI-0171,6,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_6_roi_3851.png,2,0,0.21591558,0
+LIDC-IDRI-0171,115456,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_115456_roi_3853.png,3,0,0.22774017,0
+LIDC-IDRI-0171,115456,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_115456_roi_3854.png,3,0,0.24004741,0
+LIDC-IDRI-0171,115461,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_115461_roi_3855.png,3,0,0.09700367,0
+LIDC-IDRI-0171,115461,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_115461_roi_3856.png,3,0,0.15205961,0
+LIDC-IDRI-0171,115458,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_115458_roi_3857.png,3,0,0.058591012,0
+LIDC-IDRI-0171,115458,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_115458_roi_3858.png,3,0,0.08918052,0
+LIDC-IDRI-0171,115458,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_115458_roi_3859.png,3,0,0.086132616,0
+LIDC-IDRI-0171,115451,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_115451_roi_3860.png,4,1,0.38873076,0
+LIDC-IDRI-0171,115451,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_115451_roi_3861.png,4,1,0.34766364,0
+LIDC-IDRI-0171,115451,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_115451_roi_3862.png,4,1,0.42203364,0
+LIDC-IDRI-0171,115451,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_115451_roi_3863.png,4,1,0.38305777,0
+LIDC-IDRI-0171,115451,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_115451_roi_3864.png,4,1,0.33999678,0
+LIDC-IDRI-0171,115451,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_115451_roi_3865.png,4,1,0.29003397,0
+LIDC-IDRI-0171,135202,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_135202_roi_3867.png,2,0,0.24611695,0
+LIDC-IDRI-0171,135205,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_135205_roi_3868.png,2,0,0.09954849,0
+LIDC-IDRI-0171,135189,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_135189_roi_3870.png,4,1,0.27902806,0
+LIDC-IDRI-0171,135189,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_135189_roi_3871.png,4,1,0.31074035,0
+LIDC-IDRI-0171,135189,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_135189_roi_3872.png,4,1,0.42569,0
+LIDC-IDRI-0171,135189,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_135189_roi_3873.png,4,1,0.38305777,0
+LIDC-IDRI-0171,135189,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_135189_roi_3874.png,4,1,0.33999678,0
+LIDC-IDRI-0171,135189,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_135189_roi_3875.png,4,1,0.2853303,0
+LIDC-IDRI-0171,135194,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_135194_roi_3876.png,2,0,0.07069412,0
+LIDC-IDRI-0171,135194,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_135194_roi_3877.png,2,0,0.08918052,0
+LIDC-IDRI-0171,135194,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_135194_roi_3878.png,2,0,0.096905686,0
+LIDC-IDRI-0171,135199,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_135199_roi_3879.png,2,0,0.095631704,0
+LIDC-IDRI-0171,135199,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_135199_roi_3880.png,2,0,0.14895329,0
+LIDC-IDRI-0171,135192,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_135192_roi_3881.png,3,0,0.21575429,0
+LIDC-IDRI-0171,135192,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_135192_roi_3882.png,3,0,0.24004741,0
+LIDC-IDRI-0171,Nodule 006,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 006_roi_3885.png,4,1,0.26496094,0
+LIDC-IDRI-0171,Nodule 006,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 006_roi_3886.png,4,1,0.33573568,0
+LIDC-IDRI-0171,Nodule 006,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 006_roi_3887.png,4,1,0.31614736,0
+LIDC-IDRI-0171,Nodule 006,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 006_roi_3888.png,4,1,0.42569,0
+LIDC-IDRI-0171,Nodule 006,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 006_roi_3889.png,4,1,0.34766373,0
+LIDC-IDRI-0171,Nodule 006,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 006_roi_3890.png,4,1,0.3914339,0
+LIDC-IDRI-0171,Nodule 005,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 005_roi_3891.png,3,0,0.08961669,0
+LIDC-IDRI-0171,Nodule 005,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 005_roi_3892.png,3,0,0.07069412,0
+LIDC-IDRI-0171,Nodule 007,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 007_roi_3893.png,2,0,0.16061291,0
+LIDC-IDRI-0171,Nodule 007,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 007_roi_3894.png,2,0,0.09700367,0
+LIDC-IDRI-0171,Nodule 004,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 004_roi_3895.png,2,0,0.20493212,0
+LIDC-IDRI-0171,Nodule 004,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 004_roi_3896.png,2,0,0.23037933,0
+LIDC-IDRI-0171,Nodule 004,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0171/nodule_Nodule 004_roi_3897.png,2,0,0.17565894,0
+LIDC-IDRI-0191,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_Nodule 001_roi_3916.png,5,1,0.7534363,1
+LIDC-IDRI-0191,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_Nodule 001_roi_3917.png,5,1,0.7614023,1
+LIDC-IDRI-0191,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_Nodule 001_roi_3918.png,5,1,0.74274594,1
+LIDC-IDRI-0191,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_Nodule 001_roi_3919.png,5,1,0.75188714,1
+LIDC-IDRI-0191,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_Nodule 001_roi_3920.png,5,1,0.679489,1
+LIDC-IDRI-0191,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_Nodule 001_roi_3921.png,5,1,0.66659635,1
+LIDC-IDRI-0191,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_Nodule 001_roi_3922.png,5,1,0.5846307,1
+LIDC-IDRI-0191,163111,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_163111_roi_3923.png,5,1,0.69505954,1
+LIDC-IDRI-0191,163111,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_163111_roi_3924.png,5,1,0.57917184,1
+LIDC-IDRI-0191,163111,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_163111_roi_3925.png,5,1,0.5955802,1
+LIDC-IDRI-0191,163111,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_163111_roi_3926.png,5,1,0.6327365,1
+LIDC-IDRI-0191,163111,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_163111_roi_3927.png,5,1,0.74984133,1
+LIDC-IDRI-0191,163111,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_163111_roi_3928.png,5,1,0.7892936,1
+LIDC-IDRI-0191,163111,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_163111_roi_3929.png,5,1,0.75199234,1
+LIDC-IDRI-0191,163111,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_163111_roi_3930.png,5,1,0.7614023,1
+LIDC-IDRI-0191,163111,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_163111_roi_3931.png,5,1,0.78133965,1
+LIDC-IDRI-0191,163111,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_163111_roi_3932.png,5,1,0.6676481,1
+LIDC-IDRI-0191,163111,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_163111_roi_3933.png,5,1,0.7903655,1
+LIDC-IDRI-0191,160640,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_160640_roi_3934.png,5,1,0.662519,1
+LIDC-IDRI-0191,160640,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_160640_roi_3935.png,5,1,0.57917184,1
+LIDC-IDRI-0191,160640,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_160640_roi_3936.png,5,1,0.6170116,1
+LIDC-IDRI-0191,160640,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_160640_roi_3937.png,5,1,0.6077571,1
+LIDC-IDRI-0191,160640,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_160640_roi_3938.png,5,1,0.8269608,1
+LIDC-IDRI-0191,160640,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_160640_roi_3939.png,5,1,0.810375,1
+LIDC-IDRI-0191,160640,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_160640_roi_3940.png,5,1,0.74274594,1
+LIDC-IDRI-0191,160640,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_160640_roi_3941.png,5,1,0.79601574,1
+LIDC-IDRI-0191,160640,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_160640_roi_3942.png,5,1,0.88095355,1
+LIDC-IDRI-0191,160640,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_160640_roi_3943.png,5,1,0.6521439,1
+LIDC-IDRI-0191,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_0_roi_3944.png,4,1,0.6373941,1
+LIDC-IDRI-0191,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_0_roi_3945.png,4,1,0.5875931,1
+LIDC-IDRI-0191,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_0_roi_3946.png,4,1,0.63093764,1
+LIDC-IDRI-0191,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_0_roi_3947.png,4,1,0.7498414,1
+LIDC-IDRI-0191,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_0_roi_3948.png,4,1,0.8157235,1
+LIDC-IDRI-0191,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_0_roi_3949.png,4,1,0.78986025,1
+LIDC-IDRI-0191,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_0_roi_3950.png,4,1,0.79173434,1
+LIDC-IDRI-0191,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0191/nodule_0_roi_3951.png,4,1,0.758343,1
+LIDC-IDRI-0163,154675,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_154675_roi_3953.png,4,1,0.8358919,1
+LIDC-IDRI-0163,154675,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_154675_roi_3954.png,4,1,0.9030152,1
+LIDC-IDRI-0163,154675,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_154675_roi_3955.png,4,1,0.8772846,1
+LIDC-IDRI-0163,154675,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_154675_roi_3956.png,4,1,0.7067022,1
+LIDC-IDRI-0163,154675,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_154675_roi_3957.png,4,1,0.68790084,1
+LIDC-IDRI-0163,154675,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_154675_roi_3958.png,4,1,0.5940482,1
+LIDC-IDRI-0163,154675,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_154675_roi_3959.png,4,1,0.60228,1
+LIDC-IDRI-0163,154675,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_154675_roi_3960.png,4,1,0.8340269,1
+LIDC-IDRI-0163,154675,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_154675_roi_3961.png,4,1,0.84596974,1
+LIDC-IDRI-0163,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_0_roi_3962.png,4,1,0.8467462,1
+LIDC-IDRI-0163,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_0_roi_3963.png,4,1,0.9174414,1
+LIDC-IDRI-0163,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_0_roi_3964.png,4,1,0.88161635,1
+LIDC-IDRI-0163,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_0_roi_3965.png,4,1,0.7067022,1
+LIDC-IDRI-0163,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_0_roi_3966.png,4,1,0.636272,1
+LIDC-IDRI-0163,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_0_roi_3967.png,4,1,0.6334858,1
+LIDC-IDRI-0163,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_0_roi_3968.png,4,1,0.6456333,1
+LIDC-IDRI-0163,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_0_roi_3969.png,4,1,0.8645624,1
+LIDC-IDRI-0163,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_0_roi_3970.png,4,1,0.84596974,1
+LIDC-IDRI-0163,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_Nodule 001_roi_3972.png,4,1,0.87010545,1
+LIDC-IDRI-0163,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_Nodule 001_roi_3973.png,4,1,0.8422261,1
+LIDC-IDRI-0163,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_Nodule 001_roi_3974.png,4,1,0.6239798,1
+LIDC-IDRI-0163,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_Nodule 001_roi_3975.png,4,1,0.6334858,1
+LIDC-IDRI-0163,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_Nodule 001_roi_3976.png,4,1,0.68790084,1
+LIDC-IDRI-0163,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_Nodule 001_roi_3977.png,4,1,0.7067022,1
+LIDC-IDRI-0163,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_Nodule 001_roi_3978.png,4,1,0.8894815,1
+LIDC-IDRI-0163,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_Nodule 001_roi_3979.png,4,1,0.9030152,1
+LIDC-IDRI-0163,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_Nodule 001_roi_3980.png,4,1,0.8218828,1
+LIDC-IDRI-0163,201271,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_201271_roi_3982.png,5,1,0.8491268,1
+LIDC-IDRI-0163,201271,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_201271_roi_3983.png,5,1,0.9174414,1
+LIDC-IDRI-0163,201271,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_201271_roi_3984.png,5,1,0.8762372,1
+LIDC-IDRI-0163,201271,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_201271_roi_3985.png,5,1,0.7387605,1
+LIDC-IDRI-0163,201271,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_201271_roi_3986.png,5,1,0.6407348,1
+LIDC-IDRI-0163,201271,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_201271_roi_3987.png,5,1,0.6574575,1
+LIDC-IDRI-0163,201271,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_201271_roi_3988.png,5,1,0.6353199,1
+LIDC-IDRI-0163,201271,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_201271_roi_3989.png,5,1,0.8340269,1
+LIDC-IDRI-0163,201271,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_201271_roi_3990.png,5,1,0.8380398,1
+LIDC-IDRI-0163,201271,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0163/nodule_201271_roi_3991.png,5,1,0.5893249,1
+LIDC-IDRI-0268,1,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0268/nodule_1_roi_4363.png,1,0,0.36088485,0
+LIDC-IDRI-0268,1,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0268/nodule_1_roi_4364.png,1,0,0.4262075,0
+LIDC-IDRI-0162,2,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0162/nodule_2_roi_4368.png,2,0,0.01124401,0
+LIDC-IDRI-0162,2,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0162/nodule_2_roi_4369.png,2,0,0.015461382,0
+LIDC-IDRI-0162,2,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0162/nodule_2_roi_4370.png,2,0,0.008155361,0
+LIDC-IDRI-0162,2,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0162/nodule_2_roi_4371.png,2,0,0.004718822,0
+LIDC-IDRI-0162,160412,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0162/nodule_160412_roi_4376.png,4,1,0.011173183,0
+LIDC-IDRI-0162,160412,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0162/nodule_160412_roi_4377.png,4,1,0.009834665,0
+LIDC-IDRI-0162,162770,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0162/nodule_162770_roi_4382.png,3,0,0.00920329,0
+LIDC-IDRI-0162,162770,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0162/nodule_162770_roi_4383.png,3,0,0.011173183,0
+LIDC-IDRI-0162,162770,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0162/nodule_162770_roi_4384.png,3,0,0.008155361,0
+LIDC-IDRI-0162,162770,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0162/nodule_162770_roi_4385.png,3,0,0.004718822,0
+LIDC-IDRI-0162,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0162/nodule_Nodule 001_roi_4387.png,2,0,0.08686445,0
+LIDC-IDRI-0162,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0162/nodule_Nodule 001_roi_4388.png,2,0,0.07704849,0
+LIDC-IDRI-0162,Nodule 005,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0162/nodule_Nodule 005_roi_4389.png,2,0,0.004718822,0
+LIDC-IDRI-0162,Nodule 005,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0162/nodule_Nodule 005_roi_4390.png,2,0,0.008155361,0
+LIDC-IDRI-0162,Nodule 005,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0162/nodule_Nodule 005_roi_4391.png,2,0,0.011173183,0
+LIDC-IDRI-0162,Nodule 005,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0162/nodule_Nodule 005_roi_4392.png,2,0,0.00920329,0
+LIDC-IDRI-0242,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_0_roi_4559.png,4,1,0.104040466,0
+LIDC-IDRI-0242,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_0_roi_4560.png,4,1,0.25965548,0
+LIDC-IDRI-0242,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_0_roi_4561.png,4,1,0.29207784,0
+LIDC-IDRI-0242,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_0_roi_4562.png,4,1,0.26672798,0
+LIDC-IDRI-0242,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_0_roi_4563.png,4,1,0.21237859,0
+LIDC-IDRI-0242,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_0_roi_4564.png,4,1,0.16746095,0
+LIDC-IDRI-0242,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_0_roi_4565.png,4,1,0.10892434,0
+LIDC-IDRI-0242,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_0_roi_4566.png,4,1,0.0956492,0
+LIDC-IDRI-0242,0,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_0_roi_4567.png,4,1,0.1001032,0
+LIDC-IDRI-0242,163300,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_163300_roi_4570.png,5,1,0.22989896,0
+LIDC-IDRI-0242,163300,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_163300_roi_4571.png,5,1,0.3172048,0
+LIDC-IDRI-0242,163300,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_163300_roi_4572.png,5,1,0.24192594,0
+LIDC-IDRI-0242,163300,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_163300_roi_4573.png,5,1,0.18441963,0
+LIDC-IDRI-0242,163300,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_163300_roi_4574.png,5,1,0.15456814,0
+LIDC-IDRI-0242,163300,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_163300_roi_4575.png,5,1,0.101887554,0
+LIDC-IDRI-0242,163300,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_163300_roi_4576.png,5,1,0.1211131,0
+LIDC-IDRI-0242,163300,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_163300_roi_4577.png,5,1,0.11424777,0
+LIDC-IDRI-0242,161388,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_161388_roi_4578.png,5,1,0.24331912,0
+LIDC-IDRI-0242,161388,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_161388_roi_4579.png,5,1,0.3172048,0
+LIDC-IDRI-0242,161388,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_161388_roi_4580.png,5,1,0.24192594,0
+LIDC-IDRI-0242,161388,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_161388_roi_4581.png,5,1,0.18441963,0
+LIDC-IDRI-0242,161388,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_161388_roi_4582.png,5,1,0.15456814,0
+LIDC-IDRI-0242,161388,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_161388_roi_4583.png,5,1,0.0923338,0
+LIDC-IDRI-0242,161388,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_161388_roi_4584.png,5,1,0.116134316,0
+LIDC-IDRI-0242,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_Nodule 001_roi_4586.png,5,1,0.08554908,0
+LIDC-IDRI-0242,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_Nodule 001_roi_4587.png,5,1,0.10269788,0
+LIDC-IDRI-0242,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_Nodule 001_roi_4588.png,5,1,0.15066636,0
+LIDC-IDRI-0242,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_Nodule 001_roi_4589.png,5,1,0.19403936,0
+LIDC-IDRI-0242,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_Nodule 001_roi_4590.png,5,1,0.22142704,0
+LIDC-IDRI-0242,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_Nodule 001_roi_4591.png,5,1,0.2827217,0
+LIDC-IDRI-0242,Nodule 001,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0242/nodule_Nodule 001_roi_4592.png,5,1,0.21977594,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4611.png,5,1,0.03229491,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4612.png,5,1,0.039433606,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4613.png,5,1,0.03846115,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4614.png,5,1,0.061835486,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4615.png,5,1,0.08082624,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4616.png,5,1,0.060582917,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4617.png,5,1,0.075501606,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4618.png,5,1,0.05751483,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4619.png,5,1,0.09387782,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4620.png,5,1,0.081362054,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4621.png,5,1,0.10353496,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4622.png,5,1,0.10235959,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4623.png,5,1,0.13870537,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4624.png,5,1,0.07636149,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4625.png,5,1,0.13008922,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4626.png,5,1,0.057054542,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4627.png,5,1,0.0701171,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4628.png,5,1,0.09650282,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4629.png,5,1,0.03523444,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4630.png,5,1,0.047581606,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4631.png,5,1,0.04921201,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4632.png,5,1,0.03886589,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4633.png,5,1,0.027819946,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4634.png,5,1,0.022326494,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4635.png,5,1,0.027229466,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4636.png,5,1,0.008315794,0
+LIDC-IDRI-0072,101448,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_101448_roi_4637.png,5,1,0.019826371,0
+LIDC-IDRI-0072,123231,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4639.png,5,1,0.017906962,0
+LIDC-IDRI-0072,123231,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4640.png,5,1,0.034217596,0
+LIDC-IDRI-0072,123231,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4641.png,5,1,0.028227365,0
+LIDC-IDRI-0072,123231,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4642.png,5,1,0.03129766,0
+LIDC-IDRI-0072,123231,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4643.png,5,1,0.03846115,0
+LIDC-IDRI-0072,123231,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4644.png,5,1,0.061835486,0
+LIDC-IDRI-0072,123231,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4645.png,5,1,0.07992598,0
+LIDC-IDRI-0072,123231,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4646.png,5,1,0.06262153,0
+LIDC-IDRI-0072,123231,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4647.png,5,1,0.074967496,0
+LIDC-IDRI-0072,123231,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4648.png,5,1,0.0991077,0
+LIDC-IDRI-0072,123231,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4649.png,5,1,0.12880616,0
+LIDC-IDRI-0072,123231,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4650.png,5,1,0.13008922,0
+LIDC-IDRI-0072,123231,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4651.png,5,1,0.058605745,0
+LIDC-IDRI-0072,123231,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4652.png,5,1,0.0701171,0
+LIDC-IDRI-0072,123231,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4653.png,5,1,0.062412016,0
+LIDC-IDRI-0072,123231,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4654.png,5,1,0.042739168,0
+LIDC-IDRI-0072,123231,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4655.png,5,1,0.048526894,0
+LIDC-IDRI-0072,123231,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4656.png,5,1,0.058759227,0
+LIDC-IDRI-0072,123231,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4657.png,5,1,0.06033625,0
+LIDC-IDRI-0072,123231,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4658.png,5,1,0.027819946,0
+LIDC-IDRI-0072,123231,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4659.png,5,1,0.03211847,0
+LIDC-IDRI-0072,123231,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4660.png,5,1,0.020105876,0
+LIDC-IDRI-0072,123231,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_123231_roi_4661.png,5,1,0.008315794,0
+LIDC-IDRI-0072,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4664.png,5,1,0.030112458,0
+LIDC-IDRI-0072,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4665.png,5,1,0.014109972,0
+LIDC-IDRI-0072,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4666.png,5,1,0.013299068,0
+LIDC-IDRI-0072,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4667.png,5,1,0.020389324,0
+LIDC-IDRI-0072,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4668.png,5,1,0.025339965,0
+LIDC-IDRI-0072,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4669.png,5,1,0.021764105,0
+LIDC-IDRI-0072,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4670.png,5,1,0.025568124,0
+LIDC-IDRI-0072,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4671.png,5,1,0.051245503,0
+LIDC-IDRI-0072,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4672.png,5,1,0.06659124,0
+LIDC-IDRI-0072,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4673.png,5,1,0.0441064,0
+LIDC-IDRI-0072,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4674.png,5,1,0.047821198,0
+LIDC-IDRI-0072,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4675.png,5,1,0.07070365,0
+LIDC-IDRI-0072,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4676.png,5,1,0.05177374,0
+LIDC-IDRI-0072,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4677.png,5,1,0.07636149,0
+LIDC-IDRI-0072,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4678.png,5,1,0.11458835,0
+LIDC-IDRI-0072,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4679.png,5,1,0.07491538,0
+LIDC-IDRI-0072,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4680.png,5,1,0.06722654,0
+LIDC-IDRI-0072,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4681.png,5,1,0.07915261,0
+LIDC-IDRI-0072,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4682.png,5,1,0.075439855,0
+LIDC-IDRI-0072,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4683.png,5,1,0.060666822,0
+LIDC-IDRI-0072,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4684.png,5,1,0.031257518,0
+LIDC-IDRI-0072,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4685.png,5,1,0.042373434,0
+LIDC-IDRI-0072,Nodule 002,/Users/sayanghosh/Desktop/lung-cancer-project/data/nodule_crops/LIDC-IDRI-0072/nodule_Nodule 002_roi_4686.png,5,1,0.03421751,0
