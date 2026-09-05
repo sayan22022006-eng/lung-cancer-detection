@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Lung Cancer Detection</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header class="site-header">
+
+        <div class="header-inner">
+
+            <div class="brand">
+
+                <div class="brand-icon">
+                    🫁
+                </div>
+
+                <div class="brand-text">
+
+                    <div class="brand-name">
+                        Lung Cancer Detection
+                    </div>
+
+                    <div class="brand-subtitle">
+                        AI-powered medical image & report analysis
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="research-badge">
+
+                <span class="status-dot"></span>
+
+                Research Prototype
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main class="container">
+
+
+        <!-- =================================================
+             HERO
+        ================================================== -->
+
+        <section class="hero-section">
+
+            <div class="hero-badge">
+                AI-POWERED ANALYSIS
+            </div>
+
+
+            <h1>
+                Lung Cancer Analysis
+            </h1>
+
+
+            <p class="hero-description">
+
+                Upload a CT image or medical PDF to analyze
+                lung-related findings using trained machine-learning
+                models.
+
+            </p>
+
+
+            <div class="prototype-warning">
+
+                <div class="warning-icon">
+                    ⚠
+                </div>
+
+
+                <div class="warning-content">
+
+                    <strong>
+                        Academic / Research Prototype
+                    </strong>
+
+
+                    <span>
+
+                        This system is intended for academic and research
+                        purposes only. It is not a clinical diagnostic system
+                        and must not be used for medical decisions.
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             ANALYSIS OPTIONS
+        ================================================== -->
+
+        <section class="analysis-section">
+
+
+            <div class="section-heading">
+
+                <div class="section-label">
+                    ANALYSIS OPTIONS
+                </div>
+
+
+                <h2>
+                    Choose an input
+                </h2>
+
+
+                <p>
+
+                    Select the type of medical data you want to analyze.
+                    You can process a CT image or an entire PDF document.
+
+                </p>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 SIDE-BY-SIDE ANALYSIS CARDS
+            ================================================== -->
+
+            <div class="analysis-grid">
+
+
+                <!-- =================================================
+                     IMAGE ANALYSIS CARD
+                ================================================== -->
+
+                <div class="analysis-card">
+
+
+                    <div class="card-header">
+
+                        <div class="card-icon image-card-icon">
+                            🫁
+                        </div>
+
+
+                        <div class="card-title-area">
+
+                            <div class="card-label">
+                                IMAGE ANALYSIS
+                            </div>
+
+
+                            <h3>
+                                CT Image Analysis
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <p class="card-description">
+
+                        Upload a CT image and analyze it using
+                        the deep-learning lung nodule classification model.
+
+                    </p>
+
+
+
+                    <form id="imageForm">
+
+
+                        <!-- UPLOAD AREA -->
+
+                        <label
+                            class="upload-area"
+                            for="imageFile"
+                        >
+
+                            <div class="upload-circle">
+                                ↑
+                            </div>
+
+
+                            <div class="upload-title">
+                                Upload CT Image
+                            </div>
+
+
+                            <div class="upload-subtitle">
+                                Drag & drop your image here
+                            </div>
+
+
+                            <div class="upload-or">
+                                or
+                            </div>
+
+
+                            <div class="browse-button">
+                                Browse Files
+                            </div>
+
+
+                            <div class="upload-formats">
+                                JPG &nbsp;•&nbsp; JPEG &nbsp;•&nbsp; PNG
+                            </div>
+
+
+                            <input
+                                type="file"
+                                id="imageFile"
+                                name="image"
+                                accept=".jpg,.jpeg,.png"
+                                hidden
+                            >
+
+                        </label>
+
+
+
+                        <!-- SELECTED IMAGE -->
+
+                        <div
+                            id="selectedImageName"
+                            class="selected-file"
+                        >
+
+                            <span class="file-small-icon">
+                                📁
+                            </span>
+
+
+                            <span>
+                                No file selected
+                            </span>
+
+                        </div>
+
+
+
+                        <!-- ANALYZE BUTTON -->
+
+                        <button
+                            type="submit"
+                            class="analyze-button"
+                            id="imageSubmitButton"
+                        >
+
+                            <span class="button-icon">
+                                🔍
+                            </span>
+
+
+                            <span>
+                                Analyze CT Image
+                            </span>
+
+                        </button>
+
+                    </form>
+
+
+
+                    <!-- LOADING -->
+
+                    <div
+                        id="imageLoading"
+                        class="loading hidden"
+                    >
+
+                        <div class="spinner"></div>
+
+
+                        <span>
+                            Analyzing CT image...
+                        </span>
+
+                    </div>
+
+
+
+                    <!-- RESULT -->
+
+                    <div
+                        id="imageResult"
+                        class="result-container hidden"
+                    ></div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     PDF ANALYSIS CARD
+                ================================================== -->
+
+                <div class="analysis-card">
+
+
+                    <div class="card-header">
+
+                        <div class="card-icon pdf-card-icon">
+                            📄
+                        </div>
+
+
+                        <div class="card-title-area">
+
+                            <div class="card-label">
+                                DOCUMENT ANALYSIS
+                            </div>
+
+
+                            <h3>
+                                PDF Analysis
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <p class="card-description">
+
+                        Upload a medical PDF containing CT images,
+                        radiology text, or a combination of both.
+
+                    </p>
+
+
+
+                    <form id="pdfForm">
+
+
+                        <!-- UPLOAD AREA -->
+
+                        <label
+                            class="upload-area"
+                            for="pdfFile"
+                        >
+
+                            <div class="upload-circle pdf-upload-circle">
+                                ↑
+                            </div>
+
+
+                            <div class="upload-title">
+                                Upload Medical PDF
+                            </div>
+
+
+                            <div class="upload-subtitle">
+                                Drag & drop your PDF here
+                            </div>
+
+
+                            <div class="upload-or">
+                                or
+                            </div>
+
+
+                            <div class="browse-button">
+                                Browse Files
+                            </div>
+
+
+                            <div class="upload-formats">
+                                PDF &nbsp;•&nbsp; Maximum 10 MB
+                            </div>
+
+
+                            <input
+                                type="file"
+                                id="pdfFile"
+                                name="pdf"
+                                accept=".pdf"
+                                hidden
+                            >
+
+                        </label>
+
+
+
+                        <!-- SELECTED PDF -->
+
+                        <div
+                            id="selectedPdfName"
+                            class="selected-file"
+                        >
+
+                            <span class="file-small-icon">
+                                📁
+                            </span>
+
+
+                            <span>
+                                No file selected
+                            </span>
+
+                        </div>
+
+
+
+                        <!-- ANALYZE BUTTON -->
+
+                        <button
+                            type="submit"
+                            class="analyze-button pdf-analyze-button"
+                            id="pdfSubmitButton"
+                        >
+
+                            <span class="button-icon">
+                                📊
+                            </span>
+
+
+                            <span>
+                                Analyze PDF
+                            </span>
+
+                        </button>
+
+                    </form>
+
+
+
+                    <!-- LOADING -->
+
+                    <div
+                        id="pdfLoading"
+                        class="loading hidden"
+                    >
+
+                        <div class="spinner"></div>
+
+
+                        <span>
+                            Analyzing PDF...
+                        </span>
+
+                    </div>
+
+
+
+                    <!-- RESULT -->
+
+                    <div
+                        id="pdfResult"
+                        class="result-container hidden"
+                    ></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             BACKEND STATUS
+        ================================================== -->
+
+        <section class="status-section">
+
+
+            <div class="status-card">
+
+                <div class="status-info">
+
+                    <div class="status-title">
+                        Backend Status
+                    </div>
+
+
+                    <div class="status-description">
+
+                        Check whether the Flask server and ML models
+                        are running correctly.
+
+                    </div>
+
+                </div>
+
+
+                <button
+                    id="healthButton"
+                    class="health-button"
+                >
+                    Check Status
+                </button>
+
+            </div>
+
+
+
+            <div
+                id="healthResult"
+                class="health-result hidden"
+            ></div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="site-footer">
+
+        <div class="container footer-inner">
+
+            <div>
+                Lung Cancer Detection
+            </div>
+
+
+            <div>
+                Academic / Research Prototype
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script
+        src="{{ url_for('static', filename='script.js') }}"
+    ></script>
+
+
+</body>
+
+</html>
