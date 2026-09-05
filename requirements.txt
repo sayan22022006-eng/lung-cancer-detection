@@ -9,3 +9,4 @@ opencv-python
 Pillow
 PyMuPDF
 joblib
+reportlab
