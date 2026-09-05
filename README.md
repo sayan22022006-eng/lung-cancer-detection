@@ -1,112 +1,178 @@
 # Lung Cancer Detection Project
 
-> A research and academic prototype for analyzing lung-related findings from medical images and radiology reports.
+A research and academic prototype for analyzing lung-related findings from medical images and radiology reports.
 
-> **Important:** This project is intended strictly for academic and research purposes. It is not a clinical diagnostic system and must not be used for medical decision-making.
-
----
-
-## 1. Project Overview
-
-| Item | Details |
-|---|---|
-| Project Name | Lung Cancer Detection |
-| Project Type | Academic / Research Prototype |
-| Primary Dataset | LIDC-IDRI |
-| Image Model | MobileNetV2-based CNN |
-| Text Model | TF-IDF + Logistic Regression |
-| Image Input | Lung CT/nodule image |
-| Text Input | Radiology report |
-| Document Input | PDF |
-| Backend | Flask |
-| Database | SQLite |
-| Programming Language | Python 3.12 |
-
-The system is designed to process lung-related medical data through two independent machine-learning pipelines:
-
-| Pipeline | Input | Output |
-|---|---|---|
-| Image Classification | CT/nodule image | Malignant / Non-Malignant |
-| Text Classification | Radiology report | Parenchymal lesion / No parenchymal lesion |
-
-The backend also supports PDF processing, allowing the system to inspect text and images contained inside PDF documents.
+> **Important:** This project is for academic/research purposes only. It is not a clinical diagnostic system and must not be used for medical decisions.
 
 ---
 
-## 2. Key Features
+## Project Overview
 
-| Feature | Description |
-|---|---|
-| CT Image Classification | Classifies lung/nodule images using the trained deep-learning model |
-| Radiology Text Classification | Detects parenchymal-lesion-related findings from report text |
-| PDF Processing | Processes medical PDF documents |
-| Image PDF Processing | Extracts images from PDF pages |
-| Text PDF Processing | Extracts text from PDF pages |
-| Mixed PDF Processing | Processes both images and text from the same PDF |
-| Multi-page Processing | Processes multiple PDF pages individually |
-| Prediction History | Stores previous predictions in SQLite |
-| REST API | Provides HTTP endpoints for prediction and history |
-| Health Check | Reports model and backend status |
-| Threshold-based Prediction | Uses separately selected thresholds for image and text models |
+This project combines two machine-learning components with a Flask backend:
+
+1. **Medical image classification**
+   - Uses a MobileNetV2-based deep-learning model.
+   - Trained using nodule crops derived from the LIDC-IDRI dataset.
+   - Produces malignant/non-malignant predictions.
+
+2. **Radiology report text classification**
+   - Uses TF-IDF feature extraction.
+   - Uses Logistic Regression for classification.
+   - Detects whether a report contains a parenchymal lung lesion.
+
+3. **PDF processing**
+   - Extracts text from PDF files.
+   - Extracts embedded images from PDFs.
+   - Processes multi-page PDFs.
+   - Supports image-only, text-only, and mixed PDFs.
+
+4. **Prediction history**
+   - Stores previous predictions in a local SQLite database.
+   - Allows prediction history to be retrieved and deleted through the API.
+
+The current project focuses on the **backend and machine-learning pipeline**.
 
 ---
 
-## 3. System Architecture
+## Features
 
-### 3.1 Overall Architecture
+- CT/nodule image classification
+- Radiology report text classification
+- PDF text extraction
+- PDF image extraction
+- Multi-page PDF processing
+- Image-only PDF support
+- Text-only PDF support
+- Mixed PDF support
+- Prediction history
+- REST API using Flask
+- CORS support
+- Local SQLite storage
+- Separate image and text ML models
 
-```text
-                         Input
-                           |
-          +----------------+----------------+
-          |                |                |
-       Image             Text              PDF
-          |                |                |
-          v                v                v
-   Image Preprocessing  Text Processing  PDF Processing
-          |                |                |
-          v                v                |
-   MobileNetV2 Model   TF-IDF + LR Model   |
-          |                |                |
-          v                v                v
-   Image Prediction   Text Prediction   Page Results
-          |                |                |
-          +----------------+----------------+
-                           |
-                           v
-                    Prediction Result
-                           |
-                           v
-                     SQLite History
+---
 
-3.2 Processing Components
-Component	Responsibility
-Flask Backend	Handles API requests
-Image Pipeline	Preprocesses images and runs image model
-Text Pipeline	Processes radiology reports
-PDF Pipeline	Extracts text and images from PDFs
-Image Model	Predicts malignant probability
-Text Model	Predicts parenchymal lesion probability
-SQLite	Stores prediction history
-4. Technology Stack
-Category	Technology
-Language	Python 3.12
-Backend Framework	Flask
-Cross-Origin Support	Flask-CORS
-Deep Learning	TensorFlow 2.16.2
-Image Model	MobileNetV2
-Image Processing	Pillow, OpenCV
-Numerical Computing	NumPy
-Data Processing	Pandas
-Machine Learning	Scikit-learn
-Text Features	TF-IDF
-Text Classifier	Logistic Regression
-PDF Processing	PyMuPDF
-Model Serialization	Joblib
-Database	SQLite
-Version Control	Git
-Repository	GitHub
-5. Project Structure
+# Quick Start
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/sayan22022006-eng/lung-cancer-detection.git
+cd lung-cancer-detection
+
+
+2. Check Python Version
+
+The project uses Python 3.12.
+
+Check your version:
+
+python3 --version
+
+Expected:
+
+Python 3.12.x
+3. Create a Virtual Environment
+python3 -m venv venv312
+
+Activate it:
+
+macOS / Linux
+source venv312/bin/activate
+Windows
+venv312\Scripts\activate
+4. Install Dependencies
+python -m pip install --upgrade pip setuptools wheel
+
+Then:
+
+pip install -r requirements.txt
+What Teammates Need to Download
+
+For normal project execution, teammates only need:
+
+Requirement	Needed?
+Git repository	Yes
+Python 3.12	Yes
+Python packages	Yes
+Trained image model	Already included
+Trained text model	Already included
+LIDC-IDRI raw dataset	No
+DICOM files	No
+XML annotation files	No
+Nodule crop dataset	No
+X-Raydar raw JSONL dataset	No
+Virtual environment	No
+SQLite database	Created locally
+Uploaded files	Created locally
+
+The large raw datasets are intentionally excluded from GitHub.
+
+Model Files
+
+The trained models are stored inside the models/ directory.
+
+Image Model
+models/lung_cancer_model_v5.keras
+
+The image model is based on MobileNetV2.
+
+Text Model
+models/text/tfidf_logistic_model.joblib
+models/text/tfidf_vectorizer.joblib
+models/text/decision_threshold.txt
+
+The text classifier uses:
+
+TF-IDF + Logistic Regression
+System Architecture
+                    INPUT
+                      |
+          +-----------+-----------+
+          |                       |
+       IMAGE                     PDF
+          |                       |
+          |              +--------+--------+
+          |              |                 |
+          |            Text              Image
+          |              |                 |
+          |              v                 v
+          |        Text Classifier    Image Classifier
+          |              |                 |
+          +--------------+-----------------+
+                         |
+                         v
+                  Flask Backend API
+                         |
+              +----------+----------+
+              |                     |
+        Prediction Result      SQLite History
+Technology Stack
+Backend
+Python
+Flask
+Flask-CORS
+PyMuPDF
+Machine Learning
+TensorFlow
+Keras
+MobileNetV2
+Scikit-learn
+TF-IDF
+Logistic Regression
+Data Processing
+NumPy
+Pandas
+SciPy
+OpenCV
+Pillow
+Storage
+SQLite
+Development
+VS Code
+Git
+GitHub
+Project Structure
 lung-cancer-project/
 │
 ├── backend/
@@ -115,32 +181,26 @@ lung-cancer-project/
 │
 ├── data/
 │   ├── text/
-│   │   └── xraydar-reports.jsonl
-│   │
-│   ├── image_dataset.csv
-│   ├── prepared_dataset.csv
+│   ├── nodule_crops/
+│   ├── nodule_crops_64/
 │   └── ...
 │
 ├── models/
 │   ├── lung_cancer_model_v5.keras
-│   │
 │   └── text/
 │       ├── tfidf_logistic_model.joblib
 │       ├── tfidf_vectorizer.joblib
 │       └── decision_threshold.txt
 │
 ├── src/
-│   ├── create_image_dataset.py
-│   ├── create_nodule_dataset.py
+│   ├── predict_image.py
+│   ├── train_model.py
+│   ├── train_model_v5.py
 │   ├── evaluate_model.py
 │   ├── evaluate_v5_threshold.py
-│   ├── predict_image.py
+│   ├── create_nodule_dataset.py
+│   ├── create_image_dataset.py
 │   ├── prepare_dataset.py
-│   ├── regenerate_test_predictions.py
-│   ├── train_model.py
-│   ├── train_model_128.py
-│   ├── train_model_v4.py
-│   ├── train_model_v5.py
 │   │
 │   └── text_classifier/
 │       ├── prepare_text_dataset.py
@@ -148,83 +208,48 @@ lung-cancer-project/
 │       ├── evaluate_text_threshold.py
 │       └── predict_text.py
 │
+├── requirements.txt
 ├── API_DOCUMENTATION.md
 ├── README.md
-├── requirements.txt
 └── .gitignore
-6. Installation
-6.1 Requirements
-Requirement	Version / Information
-Operating System	macOS / Linux / Windows
-Python	3.12 recommended
-Git	Required
-RAM	Depends on model training workload
-Internet	Required for initial dependency installation
-6.2 Clone the Repository
-git clone https://github.com/sayan22022006-eng/lung-cancer-detection.git
-cd lung-cancer-detection
-6.3 Create Virtual Environment
-python3.12 -m venv venv312
 
-Activate it:
+Some dataset-generation files and raw datasets are intentionally excluded from the Git repository.
 
-source venv312/bin/activate
-6.4 Install Dependencies
-python -m pip install --upgrade pip setuptools wheel
+API Endpoints
 
-Then:
+The Flask backend runs on:
 
-pip install -r requirements.txt
-6.5 Verify TensorFlow
-python -c "import tensorflow as tf; print(tf.__version__)"
-
-Expected version:
-
-2.16.2
-7. Required Project Files
-
-For normal project execution, the following files are required:
-
-File / Folder	Required for Running Backend	Required for Retraining
-backend/app.py	Yes	Yes
-models/lung_cancer_model_v5.keras	Yes	No
-models/text/tfidf_logistic_model.joblib	Yes	No
-models/text/tfidf_vectorizer.joblib	Yes	No
-models/text/decision_threshold.txt	Yes	No
-requirements.txt	Yes	Yes
-src/	Yes	Yes
-data/image_dataset.csv	No	Yes
-LIDC-IDRI raw DICOM data	No	Yes
-X-Raydar raw JSONL	No	Yes
-Generated image crops	No	Yes
-7.1 Important
-
-The large raw datasets are intentionally excluded from GitHub.
-
-The trained models required to run the backend are stored in the repository.
-
-Therefore, a teammate who only wants to run the existing system does not need to download the complete LIDC-IDRI dataset.
-
-8. Running the Backend
+http://127.0.0.1:5000
+Method	Endpoint	Purpose
+GET	/api/health	Check backend and models
+POST	/api/predict	Predict an uploaded image
+POST	/api/predict-pdf	Process a PDF
+GET	/api/history	Retrieve prediction history
+DELETE	/api/history/<id>	Delete a history record
+Starting the Backend
 
 From the project root:
 
-source venv312/bin/activate
-
-Start Flask:
-
 python backend/app.py
 
-The backend runs at:
+The backend should start on:
 
 http://127.0.0.1:5000
-8.1 Health Check
+Health Check
 
-Open:
+Run:
 
-http://127.0.0.1:5000/api/health
+curl http://127.0.0.1:5000/api/health
 
-Example response:
+A successful response contains information about:
+
+image model
+text model
+image threshold
+text threshold
+model loading status
+
+Example:
 
 {
   "image_model": "lung_cancer_model_v5.keras",
@@ -234,272 +259,250 @@ Example response:
   "text_model": "tfidf_logistic_model.joblib",
   "text_threshold": 0.63
 }
-9. Machine Learning Models
+Image Prediction
 
-The project currently contains two separate machine-learning models.
+The image prediction endpoint is:
 
-Model	Purpose	Algorithm
-Image Model	Lung/nodule image classification	MobileNetV2
-Text Model	Radiology report classification	TF-IDF + Logistic Regression
-10. Image Classification Model
-10.1 Model Architecture
-Property	Value
-Architecture	MobileNetV2
-Learning Method	Transfer Learning
-Input Size	224 × 224 × 3
-Input Format	RGB
-Output	Malignant probability
-Primary Threshold	0.50
-Loss	Binary Cross-Entropy
-Regularization	Dropout + L2
-Training	Two-stage
-Fine-tuning	Partial MobileNetV2 layers
-Label Smoothing	0.02
+POST /api/predict
 
-The original grayscale CT/nodule images are converted to RGB before being passed to MobileNetV2.
+The uploaded file must be sent using the field:
 
-10.2 Image Prediction Classes
-Model Output	Meaning
-MALIGNANT	Probability is at or above 0.50
-NON-MALIGNANT	Probability is below 0.50
-UNCERTAIN	Probability falls within the configured uncertainty band
-10.3 Image Threshold
+image
+
+Example:
+
+curl -X POST \
+  -F "image=@/path/to/image.jpg" \
+  http://127.0.0.1:5000/api/predict
+
+The API returns:
+
+malignant probability
+non-malignant probability
+prediction
+model score
+threshold
+uncertainty status
+history ID
+
+Example:
+
+{
+  "success": true,
+  "type": "image",
+  "model": "lung_cancer_model_v5.keras",
+  "result": {
+    "malignant_probability": 0.14,
+    "non_malignant_probability": 0.86,
+    "prediction": "NON-MALIGNANT",
+    "model_score": 0.86,
+    "threshold": 0.5,
+    "uncertainty": false
+  }
+}
+Image Model Decision Logic
 
 The primary image classification threshold is:
 
 0.50
 
-The prototype also uses an uncertainty band:
+The model produces a malignant probability.
 
-0.45 - 0.55
+Conceptually:
 
-This uncertainty rule is intended for prototype handling and should not be interpreted as a clinical confidence interval.
+Probability >= 0.50
+        |
+        v
+    MALIGNANT
 
-11. Image Model Experimental Results
+Probability < 0.50
+        |
+        v
+ NON-MALIGNANT
 
-The final V5 model was evaluated on the held-out test set.
+An uncertainty band is also used:
 
-Metric	Result
-Accuracy	75.42%
-Precision	77.40%
-Recall	85.93%
-F1 Score	81.44%
-ROC-AUC	79.73%
-11.1 Confusion Matrix
-	Predicted Non-Malignant	Predicted Malignant
-Actual Non-Malignant	90	66
-Actual Malignant	37	226
-11.2 Interpretation
-Observation	Result
-Correct non-malignant predictions	90
-Incorrect malignant predictions for non-malignant cases	66
-Missed malignant cases	37
-Correct malignant predictions	226
+0.45 <= probability <= 0.55
 
-These results are experimental results from the project dataset and should not be interpreted as clinical performance.
+Predictions inside this range are marked:
 
-12. Text Classification Model
+UNCERTAIN
 
-The text pipeline uses real radiology reports from the X-Raydar Annotated Radiology Reports dataset.
+This uncertainty rule is a prototype/UI handling mechanism and should not be interpreted as a medical confidence interval.
 
-12.1 Text Processing
-Component	Configuration
-Feature Extraction	TF-IDF
-N-grams	Unigrams + Bigrams
-Lowercase	Enabled
-Unicode Accent Removal	Enabled
-Minimum Document Frequency	2
-Maximum Document Frequency	95%
-Sublinear TF	Enabled
-Maximum Features	100,000
-Classifier	Logistic Regression
-Class Weight	Balanced
-Solver	Liblinear
-Maximum Iterations	1000
-12.2 Target Label
+PDF Prediction
 
-The current text classifier predicts:
+The PDF endpoint is:
 
-parenchymal_lesion
-Output	Meaning
-PARENCHYMAL_LESION	Report is classified as containing a parenchymal lesion
-NO_PARENCHYMAL_LESION	Report is classified as not containing a parenchymal lesion
-13. Text Dataset
-Property	Value
-Total Reports	29,756
-Positive Reports	2,041
-Negative Reports	27,715
-Training Reports	20,829
-Validation Reports	4,463
-Test Reports	4,464
-TF-IDF Vocabulary	46,814
-13.1 Text Model Results
-Metric	Result
-Accuracy	93.41%
-Precision	51.43%
-Recall	70.59%
-F1 Score	59.50%
-ROC-AUC	95.43%
-PR-AUC	60.79%
-Decision Threshold	0.63
-13.2 Final Confusion Matrix
-	Predicted Negative	Predicted Positive
-Actual Negative	3954	204
-Actual Positive	90	216
+POST /api/predict-pdf
 
-The threshold of 0.63 was selected using the validation set and then evaluated on the held-out test set.
+Example:
 
-14. Text Classification Example
+curl -X POST \
+  -F "pdf=@/path/to/file.pdf" \
+  http://127.0.0.1:5000/api/predict-pdf
 
-Example input:
+The backend analyzes each page independently.
 
-The lungs are clear. No focal pulmonary lesion identified.
+PDF Types Supported
+1. Image-only PDF
 
-Example output:
+If the PDF contains images, the backend:
+
+PDF
+ |
+ v
+Extract images
+ |
+ v
+Image model
+ |
+ v
+Prediction
+2. Text-only PDF
+
+If the PDF contains radiology report text:
+
+PDF
+ |
+ v
+Extract text
+ |
+ v
+TF-IDF
+ |
+ v
+Logistic Regression
+ |
+ v
+Prediction
+3. Mixed PDF
+
+A PDF may contain both:
+
+radiology report text
+medical images
+
+The backend processes both components independently.
+
+                 PDF
+                  |
+          +-------+-------+
+          |               |
+        TEXT            IMAGE
+          |               |
+          v               v
+    Text Classifier   Image Classifier
+          |               |
+          +-------+-------+
+                  |
+                  v
+             PDF Summary
+Multi-page PDF Processing
+
+Each page is processed separately.
+
+For example:
+
+Page 1 → Text/Image analysis
+Page 2 → Text/Image analysis
+Page 3 → Text/Image analysis
+Page 4 → Text/Image analysis
+
+The backend then generates an overall summary.
+
+For image pages, the system calculates summary malignant probabilities.
+
+For text pages, the system calculates summary lesion probabilities.
+
+Text Classification
+
+The text classifier is designed to identify whether a radiology report contains a:
+
+PARENCHYMAL_LESION
+
+or:
+
+NO_PARENCHYMAL_LESION
+
+The model uses:
+
+Radiology Report
+       |
+       v
+     TF-IDF
+       |
+       v
+Logistic Regression
+       |
+       v
+Prediction
+Text Model Threshold
+
+The selected text decision threshold is:
+
+0.63
+
+This threshold was selected using the validation set and then applied to the test set.
+
+Example:
+
+python src/text_classifier/predict_text.py \
+"The lungs are clear. No focal pulmonary lesion identified."
+
+Example result:
 
 Prediction : NO_PARENCHYMAL_LESION
 Probability: 0.0337
 Threshold  : 0.63
 
-Example positive input:
+Another example:
 
-There is a focal parenchymal lesion in the right upper lung.
+python src/text_classifier/predict_text.py \
+"There is a focal parenchymal lesion in the right upper lung."
 
-Example output:
+Example result:
 
 Prediction : PARENCHYMAL_LESION
 Probability: 0.8317
-Threshold  : 0.63
-15. PDF Processing
+Prediction History
 
-The backend supports three main PDF document types.
+The backend stores prediction history in a local SQLite database.
 
-PDF Type	Processing
-Image PDF	Extracts and classifies images
-Text PDF	Extracts and classifies text
-Mixed PDF	Processes both images and text
-15.1 PDF Processing Flow
-PDF Upload
-    |
-    v
-Read PDF Pages
-    |
-    +--------------------+
-    |                    |
-    v                    v
-Extract Text       Extract Images
-    |                    |
-    v                    v
-Text Classifier    Image Classifier
-    |                    |
-    +---------+----------+
-              |
-              v
-        Page-level Results
-              |
-              v
-        Document Summary
-              |
-              v
-        SQLite History
-16. Multi-page PDF Processing
+The history contains information such as:
 
-Each PDF page is processed separately.
-
-Page Content	Processing
-Text	Text classifier
-Embedded image	Image classifier
-Both text and image	Both classifiers
-No extractable content	Page rendering fallback
-
-The backend returns page-level results as well as an overall document summary.
-
-17. PDF Summary Logic
-17.1 Image Summary
-
-For image-containing PDFs, the backend calculates:
-
-Value	Description
-Average Probability	Average malignant probability across processed images
-Maximum Probability	Highest malignant probability
-Prediction	Based on the primary image threshold of 0.50
-17.2 Text Summary
-
-For text-containing PDFs:
-
-Value	Description
-Average Probability	Average text-model probability
-Threshold	0.63
-Prediction	Based on the text decision threshold
-17.3 Mixed Documents
-
-For mixed PDFs containing both text and images:
-
-Document Type = MIXED
-
-The backend preserves the separate image and text predictions instead of combining the two model probabilities into one artificial medical score.
-
-18. REST API
-
-The backend currently provides the following endpoints.
-
-Method	Endpoint	Purpose
-GET	/api/health	Backend and model health
-POST	/api/predict	Predict an uploaded image
-POST	/api/predict-pdf	Process a PDF
-GET	/api/history	Retrieve prediction history
-DELETE	/api/history/<id>	Delete a history record
-19. Image Prediction API
-Endpoint
-POST /api/predict
-Form Field
-image
-Example Request
-curl -X POST \
-  -F "image=@/path/to/image.jpg" \
-  http://127.0.0.1:5000/api/predict
-Example Response
-{
-  "filename": "example.jpg",
-  "history_id": 1,
-  "model": "lung_cancer_model_v5.keras",
-  "result": {
-    "malignant_probability": 0.1428,
-    "model_score": 0.8572,
-    "non_malignant_probability": 0.8572,
-    "prediction": "NON-MALIGNANT",
-    "threshold": 0.5,
-    "uncertainty": false
-  },
-  "success": true,
-  "type": "image"
-}
-20. PDF Prediction API
-Endpoint
-POST /api/predict-pdf
-Form Field
-pdf
-Example Request
-curl -X POST \
-  -F "pdf=@/path/to/document.pdf" \
-  http://127.0.0.1:5000/api/predict-pdf
-Supported Processing
-Input	Result
-Image-only PDF	Image predictions
-Text-only PDF	Text predictions
-Mixed PDF	Image + text predictions
-Multi-page PDF	Page-by-page processing
-21. Prediction History API
-21.1 Get History
-GET /api/history
+prediction ID
+filename
+file type
+prediction
+probability
+model used
+saved file
+timestamp
+detailed prediction information
+Retrieve History
+curl http://127.0.0.1:5000/api/history
 
 Example:
 
-curl http://127.0.0.1:5000/api/history
+{
+  "success": true,
+  "count": 1,
+  "history": [
+    {
+      "id": 1,
+      "filename": "example.jpg",
+      "file_type": "image",
+      "prediction": "NON-MALIGNANT",
+      "probability": 0.14,
+      "model": "lung_cancer_model_v5.keras"
+    }
+  ]
+}
+Delete History
 
-The endpoint returns stored prediction records from SQLite.
+Use:
 
-21.2 Delete History
 DELETE /api/history/<id>
 
 Example:
@@ -507,136 +510,177 @@ Example:
 curl -X DELETE \
   http://127.0.0.1:5000/api/history/1
 
-Deleting a record also removes the corresponding uploaded file when applicable.
+Deleting a history record also removes the associated locally stored uploaded file.
 
-22. File Storage
-Location	Purpose
-backend/uploads/	Temporarily/stored uploaded prediction files
-SQLite database	Prediction history
-models/	Trained machine-learning models
-data/	Dataset and derived training data
+Image Model Details
 
-Uploaded files and local databases are excluded from Git through .gitignore.
+The main image model is:
 
-23. Dataset Information
-23.1 LIDC-IDRI
+MobileNetV2
 
-The image classification pipeline is based on the LIDC-IDRI dataset.
+Input size:
 
-Property	Project Data
-Annotation ROI Records	4,709
-Unique Nodules Used	468
-Patients Used	71
-Training Nodules	344
-Validation Nodules	58
-Test Nodules	66
-23.2 Binary Classification Labels
-Label	Meaning
-0	Non-malignant
-1	Malignant
+224 × 224 × 3
 
-The binary label was derived from the malignancy annotation using:
+The original grayscale medical image is converted to RGB before being passed to the model.
 
-Malignancy >= 4 → Malignant
-Malignancy < 4  → Non-malignant
-23.3 Patient-level Split
+The model was trained using nodule crops generated from LIDC-IDRI annotations.
 
-The dataset was divided at the patient level to reduce the possibility of patient-level leakage.
+Training included:
 
-Split	Patients
-Training	49
-Validation	11
-Test	11
-24. Text Dataset Information
+transfer learning
+conservative data augmentation
+class weighting
+label smoothing
+dropout
+L2 regularization
+two-stage training
+partial fine-tuning
+Image Model Experimental Results
 
-The text classifier uses the X-Raydar Annotated Radiology Reports dataset.
+The V5 model achieved the following results on the held-out test set at the primary threshold of 0.50:
 
-Property	Value
-Dataset	X-Raydar Annotated Radiology Reports
-Records	29,756
-Language	English
-Target Finding	parenchymal_lesion
-Task	Binary text classification
-Feature Method	TF-IDF
-Classifier	Logistic Regression
+Metric	Result
+Accuracy	75.42%
+Precision	77.40%
+Recall	85.93%
+F1 Score	81.44%
+ROC-AUC	79.73%
 
-The raw dataset is excluded from GitHub because it is unnecessary for normal backend execution and is used primarily for model development/retraining.
+Confusion matrix:
 
-25. Retraining the Image Model
+                Predicted
+              0          1
 
-The image model can be retrained using the available training scripts.
+Actual 0     90         66
+Actual 1     37        226
 
-Main V5 Training Script
+These are experimental research results and should not be interpreted as clinical performance.
+
+Text Model Experimental Results
+
+The text classifier was evaluated using a validation-selected threshold of 0.63.
+
+Final test results:
+
+Metric	Result
+Accuracy	93.41%
+Precision	51.43%
+Recall	70.59%
+F1 Score	59.50%
+ROC-AUC	95.43%
+PR-AUC	60.79%
+
+Confusion matrix:
+
+                Predicted
+              0          1
+
+Actual 0    3954        204
+Actual 1      90        216
+
+The relatively lower precision and F1 compared with accuracy show why accuracy alone should not be used to evaluate this classifier.
+
+Dataset Information
+LIDC-IDRI
+
+The image model was developed using the LIDC-IDRI dataset.
+
+The project uses:
+
+CT images
+radiologist annotations
+nodule locations
+malignancy ratings
+
+The dataset was processed into image crops for model training.
+
+The final prepared image dataset contains:
+
+468 unique nodules
+71 patients
+
+The binary classification setup uses:
+
+0 → Non-malignant
+1 → Malignant
+
+The binary label is derived from the malignancy rating.
+
+Patient-level Data Splitting
+
+To reduce data leakage, the dataset was divided at the patient level rather than randomly splitting individual images.
+
+Current split:
+
+Training patients   : 49
+Validation patients  : 11
+Test patients       : 11
+
+This ensures that nodules belonging to the same patient do not appear across different dataset splits.
+
+Text Dataset
+
+The text classifier was developed using the X-Raydar annotated radiology report dataset.
+
+The project uses report text and report-level findings to create a binary classification task for:
+
+parenchymal_lesion
+
+The raw dataset is not included in the Git repository.
+
+Retraining the Image Model
+
+If the image model needs to be retrained, the required raw datasets and derived files must be available locally.
+
+The main training script is:
+
 python src/train_model_v5.py
 
-The training process includes:
-
-Stage	Description
-Stage 1	MobileNetV2 base initially frozen
-Stage 2	Selected layers fine-tuned
-Augmentation	Conservative image augmentation
-Class Weighting	Balanced classes
-Regularization	Dropout + L2
-Label Smoothing	0.02
-Validation	Patient-level validation set
-
-The final model is saved as:
+The trained model is saved as:
 
 models/lung_cancer_model_v5.keras
-
-26. Retraining the Text Model
+Retraining the Text Model
 
 Prepare the text dataset:
 
 python src/text_classifier/prepare_text_dataset.py
 
-Train the text model:
+Train the classifier:
 
 python src/text_classifier/train_text_model.py
 
-Evaluate and select the decision threshold:
+Evaluate the decision threshold:
 
 python src/text_classifier/evaluate_text_threshold.py
 
-The resulting files are:
-
-models/text/tfidf_logistic_model.joblib
-models/text/tfidf_vectorizer.joblib
-models/text/decision_threshold.txt
-27. Direct Prediction Scripts
-
-27.1 Image Prediction
-python src/predict_image.py "/path/to/image.jpg"
-27.2 Text Prediction
+Test the trained classifier:
 
 python src/text_classifier/predict_text.py \
-"The lungs are clear. No focal pulmonary lesion identified."
+"Example radiology report text"
+Troubleshooting
+Python command not found
 
-28. Troubleshooting
-
-28.1 Python Command Not Found
-
-Check Python:
+Try:
 
 python3 --version
 
 If Python 3.12 is installed:
 
 python3.12 --version
+Virtual environment is not activated
 
-28.2 Virtual Environment Not Activated
-
-Activate:
+macOS/Linux:
 
 source venv312/bin/activate
 
-Verify:
+Check:
 
 which python
 
-The result should point inside the project virtual environment.
+It should point to the project virtual environment.
 
-28.3 TensorFlow Import Error
+TensorFlow cannot be imported
 
 Check:
 
@@ -645,104 +689,68 @@ python -c "import tensorflow as tf; print(tf.__version__)"
 Expected:
 
 2.16.2
-
-If dependencies are missing:
-
-pip install -r requirements.txt
-
-
-28.4 OpenCV Import Error
+OpenCV cannot be imported
 
 Check:
 
 python -c "import cv2; print(cv2.__version__)"
-28.5 Model Not Found
+PyMuPDF cannot be imported
 
-Check:
+Use:
 
-ls -lh models/
+python -c "import pymupdf; print(pymupdf.__doc__[:100])"
 
-The main image model should exist:
+The project uses:
 
-models/lung_cancer_model_v5.keras
+import pymupdf
 
-Check the text models:
-
-ls -lh models/text/
-
-Expected files:
-
-tfidf_logistic_model.joblib
-tfidf_vectorizer.joblib
-decision_threshold.txt
-28.6 Backend Does Not Start
-
-Run:
-
-python backend/app.py
-
-Then check:
-
-http://127.0.0.1:5000/api/health
+for PDF processing.
 
 
-29. Git Workflow
-Check Current Status
+Git Workflow
+
+Check the current status:
+
 git status
-Add Changes
+
+Pull the latest changes:
+
+git pull origin main
+
+After making changes:
+
 git add .
-Commit Changes
-git commit -m "Describe the changes"
-Push Changes
-git push
-Pull Latest Changes
-git pull
-View Commit History
-git log --oneline
 
+Create a commit:
 
-30. Important Files
-File	Purpose
-backend/app.py	Main Flask backend
-src/predict_image.py	Image prediction logic
-src/train_model_v5.py	V5 image model training
-src/evaluate_v5_threshold.py	Image threshold evaluation
-src/text_classifier/predict_text.py	Text prediction
-src/text_classifier/train_text_model.py	Text model training
-src/text_classifier/evaluate_text_threshold.py	Text threshold evaluation
-src/text_classifier/prepare_text_dataset.py	Text dataset preparation
-requirements.txt	Python dependencies
-API_DOCUMENTATION.md	Complete API documentation
-README.md	Project documentation
+git commit -m "Describe your changes"
 
+Push:
 
-31. Project Status
-Component	Status
-LIDC-IDRI image dataset preparation	Complete
-Image crop generation	Complete
-Patient-level dataset splitting	Complete
-Image model V5	Complete
-Image model evaluation	Complete
-Text dataset preparation	Complete
-Text classifier	Complete
-Text threshold selection	Complete
-Image prediction API	Complete
-PDF processing	Complete
-Multi-page PDF processing	Complete
-Mixed PDF processing	Complete
-Prediction history	Complete
-SQLite integration	Complete
-REST API	Complete
-API documentation	Complete
-README documentation	Complete
-32. Limitations
-Limitation	Description
-Research Dataset	The models are trained using research datasets
-Limited Patient Count	The image model uses a relatively small patient-level subset
-Class Imbalance	Malignancy classes are not perfectly balanced
-Domain Shift	Performance may change on images from different sources
-Image Input	The image model is designed around lung/nodule CT crops
-Text Target	The text classifier detects parenchymal lesion findings, not cancer diagnosis directly
-PDF Variability	PDF layouts and embedded content can vary
-Clinical Validation	No clinical validation has been performed
-OOD Inputs	Predictions on unrelated image types may be unreliable
+git push origin main
+API Documentation
+
+Detailed API information is available in:
+
+API_DOCUMENTATION.md
+
+This file contains:
+
+API endpoints
+request formats
+response formats
+PDF processing behavior
+error handling
+testing examples
+Project Limitations
+
+This project currently has several important limitations:
+
+The image model is a research prototype.
+The image model was trained on LIDC-IDRI-derived nodule crops.
+Arbitrary medical images may be outside the model's training distribution.
+A chest X-ray should not be treated as equivalent to a CT nodule crop.
+The text classifier detects a specific report finding and is not a complete lung-cancer diagnosis system.
+PDF extraction quality depends on the PDF structure.
+OCR is not currently implemented for scanned PDFs without extractable text.
+Model probabilities should not be interpreted as medical certainty.
